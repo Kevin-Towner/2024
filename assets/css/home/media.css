@@ -1,0 +1,117 @@
+@media screen  and (min-height:1064px) {
+    html body main{
+        padding-bottom:45vh
+    }
+  }
+
+@media screen  and (min-width:1824px) {
+    html body main{
+      width:50vw;
+    }
+
+    html body main #section-1 #logo-image{
+      width:10em;
+    }
+
+    html body main section div p{
+      font-size:14.5pt;
+    }
+
+    html body main #section-2 .button-row a button span{
+      font-size:13pt;
+    }
+  }
+
+  @media screen and (max-width:880px){
+    html body main #section-3 .row-33_33_33-primary{
+      grid-template-columns: 1fr 1fr;
+    }
+    html body main #section-3 .row-33_33_33-primary div a div div h2{
+      font-size:13pt;
+    }
+
+    html body main #section-3 .row-33_33_33-primary div a div div p{
+      width:90%;
+      text-align: center;
+      margin:0 auto 0 auto;
+      font-size:10.5pt;
+    }
+  }
+
+  @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    html body main section div h1{
+      text-align: left;
+      margin:0;
+      line-height: 125%;
+      font-size:16pt;
+    }
+
+    html body main section div p{
+      font-size:10.5pt;
+    }
+
+    html body main #section-2 .button-row form button span{
+      font-size:10.5pt;
+      letter-spacing:0;
+    }
+
+    html body main{
+        padding-top:16vh;
+        padding-bottom:20vh;
+        width:80%;
+    }
+
+    html body main #section-1{
+      display:flex;
+      flex-direction:row;
+      gap:1em;
+      align-items:center;
+      margin-bottom:1em;
+    }
+
+    html body main #section-1 #logo-image{
+      width:2.5em;
+      margin:auto 0;
+      display:none;
+    }
+
+    html body main section div p{
+      text-align: left;
+    }
+
+    html body main #section-2 .button-row{
+      display:flex;
+      flex-direction: column;
+      gap:1em;
+      margin:0;
+      width:100%;
+    }
+
+    html body main #section-2 .button-row form #button-1{
+      min-width:100%;
+    }
+    html body main #section-2 .button-row form #button-2{
+      min-width:100%;
+    }
+    html body main #section-3 .row-33_33_33-primary{
+      grid-template-columns:1fr;
+    }
+
+    html body main #section-3 .row-33_33_33-primary div a div div h2{
+      font-size:13pt;
+    }
+
+    html body main #section-3 .row-33_33_33-primary div a div div p{
+      width:90%;
+      text-align: center;
+      margin:0 auto 0 auto;
+      font-size:10.5pt;
+    }
+
+    .divider-space{
+      padding:1em 0;
+    }
+    .divider-space .divider-line{
+      width:100%;
+      display:block;
+    }

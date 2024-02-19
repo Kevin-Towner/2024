@@ -1,0 +1,87 @@
+@media screen  and (min-width:1824px) {
+  .container-screen_content-67{
+    width:50vw;
+  }
+}
+
+
+
+
+@media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  h1{
+    line-height: 125%;
+    font-size:16pt;
+  }
+  p{
+    font-size:10.5pt;
+  }
+  h3{
+    font-size:13pt;
+  }
+  h4{
+    font-size:11pt;
+    line-height:125%;
+  }
+
+  .container-screen_content-67 {
+    display: flex;
+    flex-direction: column;
+    padding: 16vh 0 24vh 0;
+    width: 80%;
+    margin: auto;
+  }
+
+  .row-33_33_33-primary {
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
+
+  .row-70_30-primary{
+    grid-template-columns: 1fr;
+    grid-gap:1em;
+    margin-bottom:1em;
+  }
+
+  #gundam-logo{
+    display:none;
+  }
+
+  .section .button-row form button{
+    width:100%;
+  }
+  .section .button-row form button .button-label{
+    width:fit-content;
+    margin:auto;
+    gap:.5em;
+  }
+
+  .section .button-row form button span{
+    font-size:10.5pt;
+  }
+
+  .section .button-row form button .button-label span img{
+    width:fit-content;
+    margin:auto;
+    gap:.5em;
+    height:24px;
+  }
+
+  #row-resume_content{
+    padding:1rem .4rem 4rem 1rem;
+  }
+
+  #row-resume_content .row-70_30-primary div ul li{
+    margin-bottom:0px;
+    font-size:9.5pt;
+    margin-left:.5em !important;
+  }
+
+  #row-resume_content .row-70_30-primary #column-skills div .job-title, #row-resume_content .row-70_30-primary #column-jobs div .company-name,  #row-resume_content .row-70_30-primary #column-skills div .company-name, #row-resume_content .row-70_30-primary #column-jobs div .job-title, #row-resume_content .row-100-primary p, #row-resume_content .row-70_30-primary #column-jobs div .job-dates{
+    font-size:9.5pt;
+  }
+
+  #row-resume_content .row-100-primary h5, #row-resume_content .row-70_30-primary div h5{
+    font-size:10.5pt;
+  }
+
+}

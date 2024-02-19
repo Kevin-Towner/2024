@@ -1,0 +1,40 @@
+
+  footer {
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    background-color: #2E69FF;
+    z-index: 1;
+    text-align: right;
+    padding:.5rem 0;
+    border-top:1px solid #c4c4c4;
+  }
+
+  footer .copyright{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 12pt;
+    color:#fff;
+  }
+  footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 67vw;
+    margin: auto;
+  }
+  footer div ul {
+    margin: 0;
+    display: inline-flex;
+  }
+  footer div ul li a .footer-icon {
+    margin-top: 2px;
+    height: 24px;
+  }
+  footer div ul li a #footer-icon_instagram {
+    padding-left: 24px;
+  }
+  footer div ul li:nth-child(1) {
+    margin-right: 32px;
+  }

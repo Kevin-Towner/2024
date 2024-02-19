@@ -1,0 +1,497 @@
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* - - - -CONTAINERS - - - - - */
+.button-row form {
+  margin-top: 1em;
+}
+.button-row form button {
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+  transition: 0.3s;
+  color: #fff;
+  border: 2px solid #5282FD;
+  background-color: #5282FD;
+}
+.button-row form button:hover {
+  background-color: #1B58F5;
+  color: #fff;
+}
+.button-row form button .button-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+.button-row form button .button-label span img {
+  height: 24px;
+}
+.button-row form button span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 11.5pt;
+  letter-spacing: 0.4px;
+}
+.button-row form button:hover {
+  cursor: pointer;
+}
+.container-screen_content-67 {
+  display: flex;
+  flex-direction: column;
+  padding: 24vh 0 24vh 0;
+  width: 67%;
+  margin: auto;
+  animation: fadeInAnimation ease 1.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.container-body-100 {
+  margin: 0 auto;
+  background: #FCFCFC;
+  z-index: 0;
+  min-height: 100%;
+}
+.row {
+  margin-bottom: 2em;
+}
+.row-50_50-primary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+.row-50_50-primary div img {
+  max-width: 100%;
+  min0width: 100%;
+  border: 1px solid #BFBFBF;
+  border-radius: 2px;
+}
+.row-33_33_33-primary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+}
+.row-33_33_33-primary div a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+.row-33_33_33-primary div a img {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 250px;
+  border-radius: 2px;
+}
+.row-33_33_33-primary div a h4 {
+  line-height: initial;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  background: #1B58F5;
+  color: #fff;
+  opacity: 0;
+  transition: 0.3s;
+  margin-block-end: 0;
+  padding: 20% 1em 0 1em;
+}
+.row-33_33_33-primary div a h4 span {
+  font-weight: 300;
+  font-size: 14pt;
+  width: 90%;
+  padding-top: 0;
+}
+.row-33_33_33-primary div a h4:hover {
+  opacity: 0.92;
+}
+.row-33_33_33-primary div .font-caption {
+  display: none;
+}
+.row-70_30-primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1em;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1.5em;
+}
+.row-100-primary {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 1.5em;
+}
+.image-column {
+  display: flex;
+  flex-direction: column;
+}
+/* - - - - FONTS - - - - - - */
+.font-h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20pt;
+  color: #565f6d;
+}
+.font-heading_text-h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+  text-align: left;
+  color: #6C7583;
+  border-bottom: 1px solid #a9a9a9;
+  line-height: 0.1em;
+  margin: 1em 0 1em 0;
+}
+.font-heading_text-h2 span {
+  background: #FCFCFC;
+  padding: 0 0.5em 0 0px;
+}
+.font-heading_text-h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  font-size: 14pt;
+  text-align: left;
+  line-height: 140%;
+  color: #565f6d;
+}
+.font-heading_text-h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14pt;
+  letter-spacing: 0.3px;
+  margin: 0 0 12px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #6C7583;
+}
+.font-heading_text-h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14.5pt;
+  letter-spacing: 0.3px;
+  margin: 0 0 12px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #6C7583;
+}
+.font-body_text-p {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 12pt;
+  font-weight: 300;
+  color: #252825;
+  margin: 0 0 1em 0;
+  line-height: 150%;
+}
+.font-hyperlink_text {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 12pt;
+  color: #252825;
+  margin: 0 0 1em 0;
+  text-decoration: none;
+  font-weight: 300;
+}
+.font-hyperlink_text:hover {
+  text-decoration: underline;
+  color: #2E69FF;
+}
+.font-hyperlink_in-text {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 12pt;
+  margin: 0 0 1em 0;
+  color: #2E69FF;
+  text-decoration: none;
+  font-weight: 300;
+}
+.font-hyperlink_in-text:hover {
+  text-decoration: underline;
+}
+.font-caption {
+  color: #252825;
+  font-family: 'Roboto Slab', serif;
+  font-size: 11pt;
+  line-height: 140%;
+  font-weight: 300;
+}
+.font-italic {
+  font-style: italic;
+  font-size: 12.5pt;
+}
+.font-bold {
+  font-weight: 400;
+}
+.highlight {
+  font-weight: 400;
+  color: #6C7583;
+}
+.pdf-image {
+  cursor: url('../../../images/icons/purple-pdf.png'), auto;
+}
+html {
+  background: #FFF;
+}
+body {
+  margin: 0 auto;
+  background: #FCFCFC;
+  z-index: 0;
+  min-height: 100%;
+  font-size: 16pt;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20pt;
+  color: #565f6d;
+  text-align: center;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+  text-align: left;
+  color: #6C7583;
+  border-bottom: 1px solid #a9a9a9;
+  line-height: 0.1em;
+  margin: 1em 0 1em 0;
+}
+h2 span {
+  background: #FCFCFC;
+  padding: 0 0.5em 0 0px;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  font-size: 14pt;
+  text-align: left;
+  line-height: 140%;
+  color: #565f6d;
+}
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14pt;
+  letter-spacing: 0.3px;
+  margin: 0 0 12px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #6C7583;
+}
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14.5pt;
+  letter-spacing: 0.3px;
+  margin: 0 0 12px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #6C7583;
+}
+p {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 12pt;
+  font-weight: 300;
+  color: #252825;
+  margin: 0 0 1em 0;
+  line-height: 150%;
+}
+details summary {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 12pt;
+  font-weight: 300;
+  color: #252825;
+  margin: 0 0 1em 0;
+  line-height: 150%;
+}
+details div {
+  border: 1px solid #BFBFBF;
+  border-radius: 2px;
+  padding: 0.5em;
+  background: #fff;
+}
+details div ul li {
+  margin-bottom: 4px;
+}
+iframe {
+  display: relative;
+  max-width: 100%;
+  min-width: 100%;
+}
+.section h1,
+.section p {
+  text-align: center;
+  color: #fff;
+}
+#section-1 {
+  margin: 0 0 1em 0;
+}
+#section-2 {
+  margin: 0 0 0em 0;
+}
+#section-2 p {
+  margin: 0;
+}
+#section-bground {
+  background: linear-gradient(67deg, #FCFCFC 0%, #852BC2 25%, #8B3FEB 60%, #ED48E6 80%, #FCFCFC 100%);
+  background-size: cover;
+  padding: 2em 0 2em 0;
+  border-radius: 2px;
+}
+#row-overview .row-33_33_33-primary {
+  grid-gap: 5em;
+}
+#row-overview .row-33_33_33-primary .overview-tile ul li h3 {
+  text-align: center;
+}
+#row-overview .row-33_33_33-primary .overview-tile ul li p {
+  margin: 0;
+  text-align: center;
+}
+#row-overview .row-33_33_33-primary .overview-tile ul li p a {
+  font-family: 'Roboto Slab', serif;
+  font-size: 12pt;
+  margin: 0 0 1em 0;
+  color: #2E69FF;
+  text-decoration: none;
+  font-weight: 300;
+  margin: 0;
+}
+#row-overview .row-33_33_33-primary .overview-tile ul li p a:hover {
+  text-decoration: underline;
+}
+#row-overview .row-33_33_33-primary .overview-tile ul:nth-child(3) {
+  position: relative;
+  right: 0 !important;
+}
+#row-comp-anal .row-50_50-primary div p a {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 12pt;
+  margin: 0 0 1em 0;
+  color: #2E69FF;
+  text-decoration: none;
+  font-weight: 300;
+}
+#row-comp-anal .row-50_50-primary div p a:hover {
+  text-decoration: underline;
+}
+#row-baseline .row-50_50-primary div a {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 12pt;
+  margin: 0 0 1em 0;
+  color: #2E69FF;
+  text-decoration: none;
+  font-weight: 300;
+}
+#row-baseline .row-50_50-primary div a:hover {
+  text-decoration: underline;
+}
+#row-baseline .row-50_50-primary div p a {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 12pt;
+  margin: 0 0 1em 0;
+  color: #2E69FF;
+  text-decoration: none;
+  font-weight: 300;
+}
+#row-baseline .row-50_50-primary div p a:hover {
+  text-decoration: underline;
+}
+#row-factors .row-50_50-primary div a {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 12pt;
+  margin: 0 0 1em 0;
+  color: #2E69FF;
+  text-decoration: none;
+  font-weight: 300;
+}
+#row-factors .row-50_50-primary div a:hover {
+  text-decoration: underline;
+}
+#row-factors .row-50_50-primary div details summary div ul li a {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 12pt;
+  margin: 0 0 1em 0;
+  color: #2E69FF;
+  text-decoration: none;
+  font-weight: 300;
+}
+#row-factors .row-50_50-primary div details summary div ul li a:hover {
+  text-decoration: underline;
+}
+#row-test .row-50_50-primary .test-tile {
+  display: flex;
+  flex-direction: column;
+}
+#row-test .row-50_50-primary .test-tile ul li p {
+  margin: 0;
+}
+#row-test .row-50_50-primary .test-tile ul li p a {
+  font-family: 'Roboto Slab', serif;
+  font-size: 12pt;
+  margin: 0 0 1em 0;
+  color: #2E69FF;
+  text-decoration: none;
+  font-weight: 300;
+  margin: 0;
+}
+#row-test .row-50_50-primary .test-tile ul li p a:hover {
+  text-decoration: underline;
+}
+#row-test .row-50_50-primary .test-tile .button-row img {
+  border: none;
+}
+#row-prototypes .row-50_50-primary div h3 a {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 12pt;
+  margin: 0 0 1em 0;
+  color: #2E69FF;
+  text-decoration: none;
+  font-weight: 300;
+  font-weight: 400;
+  font-size: 14pt;
+}
+#row-prototypes .row-50_50-primary div h3 a:hover {
+  text-decoration: underline;
+}
+#row-prototypes .row-50_50-primary div p a {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 12pt;
+  margin: 0 0 1em 0;
+  color: #2E69FF;
+  text-decoration: none;
+  font-weight: 300;
+}
+#row-prototypes .row-50_50-primary div p a:hover {
+  text-decoration: underline;
+}
+#row-responsiveness .row-50_50-primary div p a {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 12pt;
+  margin: 0 0 1em 0;
+  color: #2E69FF;
+  text-decoration: none;
+  font-weight: 300;
+}
+#row-responsiveness .row-50_50-primary div p a:hover {
+  text-decoration: underline;
+}

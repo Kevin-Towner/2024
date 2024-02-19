@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Kevin Towner Home</title>
+    <!--meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/branding/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/branding/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/branding/favicon_io/apple-touch-icon.png">
+    <!-- <link rel="manifest" href="assets/images/branding/favicon_io/site.webmanifest"> -->
+
+    <!--Style-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/home/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/home/media.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/nav/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/nav/media.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer/media.css">
+
+    <!-- Javascript -->
+    <script type="text/JavaScript" src="assets/js/home/javascript.js"></script>
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended&family=Roboto+Slab:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0P7SDXF3EZ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+    dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-0P7SDXF3EZ');
+</script>
+</head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <div class="navigation-section" id="navigation-left">
+          <a style="margin-bottom:0;" href= "index.html"><img id="logo" src="assets/images/branding/gundam-logo0.svg" alt=""></a>
+      </div>
+      <div class="navigation-section" id="navigation-right">
+          <label for="toggle">☰</label>
+          <input type="checkbox" id="toggle">
+          <ul id="menu">
+            <li><a id="anchor-resume" href= "public/resume.html">Resume</a></li>
+            <!-- <li><a id="anchor-about" href = "public/projects.html">Projects</a></li> -->
+            <li><a id="anchor-contact" href= "public/contact.html">Contact</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section id="section-1">
+        <img id="logo-image" src="assets/images/branding/gundam-image.png" alt="Gundam inspired logo">
+        <div>
+          <h1>Welcome to my page</h1>
+        </div>
+    </section>
+    <section id="section-2" itemscope itemtype="https://www.schema.org/Person">
+      <div>
+        <p>My name is <span itemprop="givenName">Kevin</span> <span itemprop="familyName">Towner</span> 🙂.<br>I'm a web designer, digital optimization professional, and HCI enthusiast.</p>
+      </div>
+      <div class="button-row">
+        <form action="#projects-jump" method="get">
+          <button id="button-1" class="button-CTA">
+            <span>See Projects ⇣</span>
+          </button>
+        </form>
+        <form action="public/resume.html" method="get">
+          <button id="button-2" class="button-CTA">
+            <span>View Resume ⇢</span>
+          </button>
+        </form>
+      </div>
+    </section>
+    <div class="divider-space">
+      <hr class="divider-line">
+    </div>
+    <section id="section-3">
+    <a id="projects-jump"></a> <!--"Projects button jumps to this portion of page"-->
+      <div class="row-33_33_33-primary">
+        <div class="project-tile">
+          <a target="_blank" href="#">
+            <div>
+              <div>
+                <h2>Waze A/B Test</h2>
+                <p>Waze mobile app screens for a hypothetical A/B test designed to see which UI provides users with helpful COVID-19 related information.</p>
+              </div>
+              <img src="assets/images/projects/waze/cover.png" alt="Waze UI screens">
+            </div>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a target="_blank" href="#">
+            <div>
+              <div>
+                <h2>Animotify</h2>
+                <p>High fidelity wireframes/prototypes for an anime music streaming service with inspiration from Spotify.</p>
+              </div>
+              <img src="assets/images/projects/animotify/cover.png" alt="Animotify UI screens">
+            </div>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a target="_blank" href="#">
+            <div>
+              <div>
+                <h2>Simple Checkout</h2>
+                <p>Minimalistic UI design for mobile check/shopping cart.</p>
+              </div>
+              <img src="assets/images/projects/prototype-1/cover.png" alt="Simple Checkout UI screens">
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+      <div>
+        <span class = "copyright">&copy; Kevin Towner 2023</span>
+        <!-- <ul>
+          <li>
+            <a target="_blank" href="https://jigsaw.w3.org/css-validator/validator?uri=https://kevin-towner.github.io/2023/">
+              <img style="border:0;width:50px;height:28px" src="assets/images/misc/validate-css.png" alt="Valid CSS!">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://validator.w3.org/nu/?doc=https://kevin-towner.github.io/2023/">
+            <img src="assets/images/misc/validate-html.png" alt="Valid HTML 5" style="border:0;width:50px;height:28px">
+            </a>
+          </li>
+        </ul> -->
+      </div>
+  </footer>
+</body>
+</html>
