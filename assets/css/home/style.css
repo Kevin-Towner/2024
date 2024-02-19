@@ -88,6 +88,7 @@
 }
 html {
   background: #FCFCFC;
+  scroll-behavior: smooth;
 }
 html body {
   margin: 0 auto;
@@ -174,7 +175,6 @@ html body main #section-2 .button-row form #button-2:hover {
 html body main #section-3 .row-33_33_33-primary {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0.5em;
 }
 html body main #section-3 .row-33_33_33-primary div a {
   position: relative;
