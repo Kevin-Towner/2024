@@ -311,6 +311,11 @@ ul {
 .section .image-column img {
   max-height: 300px;
   min-height: 300px;
+  max-width: 450px;
+  min-width: 450px;
+}
+.section .image-column .image-text {
+  color: #6C7583;
 }
 #section-1 {
   margin: 0 0 1em 0;
