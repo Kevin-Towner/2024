@@ -24,7 +24,7 @@
 .font-h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 28pt;
+  font-size: 20pt;
   margin-bottom: 0.5em;
   color: #565f6d;
 }
@@ -120,7 +120,7 @@ html body main section div p {
 html body main section div h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 28pt;
+  font-size: 20pt;
   margin-bottom: 0.5em;
   color: #565f6d;
 }

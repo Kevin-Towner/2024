@@ -309,6 +309,7 @@ ul {
   cursor: pointer;
 }
 .section .image-column img {
+  border-radius: 2px;
   max-height: 300px;
   min-height: 300px;
   max-width: 450px;
