@@ -91,14 +91,14 @@
 /* - - - - FONTS - - - - - - */
 .font-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 20pt;
+  font-weight: 500;
+  font-size: 28pt;
   color: #565f6d;
 }
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16pt;
+  font-size: 20pt;
   text-align: left;
   color: #6C7583;
   border-bottom: 1px solid #a9a9a9;
@@ -198,6 +198,7 @@
 }
 html {
   background: #FFF;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0 auto;
@@ -208,14 +209,14 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 20pt;
+  font-weight: 500;
+  font-size: 28pt;
   color: #565f6d;
 }
 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16pt;
+  font-size: 20pt;
   text-align: left;
   color: #6C7583;
   border-bottom: 1px solid #a9a9a9;
@@ -225,35 +226,6 @@ h2 {
 h2 span {
   background: #FCFCFC;
   padding: 0 0.5em 0 0px;
-}
-h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  font-size: 20pt;
-  text-align: left;
-  line-height: 140%;
-  color: #5282FD;
-}
-h4 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 16pt;
-  letter-spacing: 0.3px;
-  margin: 0 0 12px 0;
-  text-align: left;
-  line-height: 140%;
-  color: #6C7583;
-}
-h5 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 14.5pt;
-  letter-spacing: 0.3px;
-  margin: 0 0 12px 0;
-  text-align: left;
-  line-height: 140%;
-  color: #6C7583;
 }
 p {
   font-family: 'Roboto Slab', serif;
@@ -315,11 +287,36 @@ ul {
   border-radius: 2px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
+#row-resume_content h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  font-size: 20pt;
+  text-align: left;
+  line-height: 140%;
+  color: #5282FD;
+}
 #row-resume_content h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+  letter-spacing: 0.3px;
+  margin: 0 0 12px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #6C7583;
   margin-bottom: 0;
   color: #5282FD;
 }
 #row-resume_content h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14.5pt;
+  letter-spacing: 0.3px;
+  margin: 0 0 12px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #6C7583;
   font-size: 16pt;
   color: #5282FD;
 }

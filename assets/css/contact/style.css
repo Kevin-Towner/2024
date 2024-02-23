@@ -92,13 +92,13 @@
 .font-h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 20pt;
+  font-size: 28pt;
   color: #565f6d;
 }
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16pt;
+  font-size: 20pt;
   text-align: left;
   color: #6C7583;
   border-bottom: 1px solid #a9a9a9;
@@ -209,13 +209,13 @@ body {
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 20pt;
+  font-size: 28pt;
   color: #565f6d;
 }
 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16pt;
+  font-size: 20pt;
   text-align: left;
   color: #6C7583;
   border-bottom: 1px solid #a9a9a9;

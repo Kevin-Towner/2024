@@ -24,14 +24,14 @@
 .font-h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 20pt;
-  margin-bottom: 1em;
+  font-size: 28pt;
+  margin-bottom: 0.5em;
   color: #565f6d;
 }
 .font-divider-h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16pt;
+  font-size: 20pt;
   text-align: left;
   color: #fcfcfc;
   border-bottom: 1px solid #a9a9a9;
@@ -120,8 +120,8 @@ html body main section div p {
 html body main section div h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 20pt;
-  margin-bottom: 1em;
+  font-size: 28pt;
+  margin-bottom: 0.5em;
   color: #565f6d;
 }
 html body main #section-1 #logo-image {
