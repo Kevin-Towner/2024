@@ -26,6 +26,19 @@
   }
   .section .image-column img{
     max-width:100%;
+    min-height:400px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .container-screen_content-67{
+    width:67%;
+  }
+  #section-3{
+    gap:0em;
+  }
+  .section .image-column img{
+    max-width:100%;
     min-width:100%;
     min-height:200px;
     max-height: 200px;

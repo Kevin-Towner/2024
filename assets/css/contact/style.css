@@ -275,7 +275,7 @@ ul {
 }
 .section .button-column {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 0.5em;
 }
 .section .button-column form button {
@@ -328,4 +328,10 @@ ul {
   flex-direction: row;
   align-items: top;
   gap: 2em;
+}
+#section-3 ul > li > p {
+  margin: 0;
+}
+#section-3 ul > li > p .font-hyperlink_in-text {
+  font-weight: 400;
 }
