@@ -1,0 +1,23 @@
+@media screen  and (min-height:1064px) {
+    html body main{
+        padding-bottom:45vh
+    }
+  }
+
+@media screen  and (min-width:1824px) {
+    html body main{
+      width:50vw;
+    }
+
+    html body main #section-1 #logo-image{
+      width:10em;
+    }
+
+    html body main section div p{
+      font-size:14.5pt;
+    }
+
+    html body main #section-2 .button-row a button span{
+      font-size:13pt;
+    }
+  }
