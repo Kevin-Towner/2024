@@ -3,14 +3,22 @@
     width:50vw;
   }
   .section .button-row form button span{
-    font-size:13pt;
   }
   p{
-    font-size:14.5pt;
   }
 }
 
 
+@media screen and (max-width:900px) {
+  .row-70_30-primary{
+    grid-template-columns: 1fr;
+    grid-gap:1em;
+    margin-bottom:1em;
+  }
+  .row-50_50-primary{
+    grid-template-columns:1fr;
+  }
+}
 
 
 @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
@@ -40,12 +48,6 @@
   .row-33_33_33-primary {
     grid-template-columns: 1fr;
     grid-gap: 1em;
-  }
-
-  .row-70_30-primary{
-    grid-template-columns: 1fr;
-    grid-gap:1em;
-    margin-bottom:1em;
   }
 
   #gundam-logo{
@@ -90,9 +92,5 @@
     font-size:10.5pt;
   }
 
-  .row-50_50-primary{
-    grid-template-columns:1fr;
-    grid-gap:1em;
-  }
 
 }
