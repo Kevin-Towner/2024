@@ -5,6 +5,9 @@
   p{
     font-size:14.5pt;
   }
+  .section .button-column form button span{
+    ,font-size:13.5pt;
+  }
 }
 
 
