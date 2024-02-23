@@ -110,6 +110,13 @@
   margin-bottom:1.5em;
 }
 
+.row-50_50-primary{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:.5em;
+  margin-bottom:1.5em;
+}
+
 .row-100-primary{
   display:grid;
   grid-template-columns: 1fr;
@@ -250,11 +257,24 @@ h2{
 }
 
 h3{
-
+  font-family: 'Roboto', sans-serif;
+  font-weight:400;
+  letter-spacing: .3px;
+  font-size:16pt;
+  text-align: left;
+  line-height:140%;
+  color:@color-text-h;
 }
 
 h4{
-
+  font-family: 'Roboto', sans-serif;
+  font-weight:400;
+  font-size:14.5pt;
+  letter-spacing:.3px;
+  margin: 0 0 12px 0;
+  text-align: left;
+  line-height:140%;
+  color:@color-text_2;
 }
 
 h5{
@@ -474,12 +494,9 @@ ul{
 }
 
 #section-3{
-  h3{
-    font-family: 'Roboto', sans-serif;
-    font-weight:400;
-    font-size:16pt;
-    text-align: left;
-    line-height:140%;
-    color:@color-cta-master;
+  .row-50_50-primary{
+    p{
+      margin:0;
+    }
   }
 }

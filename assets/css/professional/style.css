@@ -79,6 +79,12 @@
   align-items: baseline;
   margin-bottom: 1.5em;
 }
+.row-50_50-primary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5em;
+  margin-bottom: 1.5em;
+}
 .row-100-primary {
   display: grid;
   grid-template-columns: 1fr;
@@ -226,6 +232,25 @@ h2 {
 h2 span {
   background: #FCFCFC;
   padding: 0 0.5em 0 0px;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  font-size: 16pt;
+  text-align: left;
+  line-height: 140%;
+  color: #565f6d;
+}
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14.5pt;
+  letter-spacing: 0.3px;
+  margin: 0 0 12px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #6C7583;
 }
 p {
   font-family: 'Roboto Slab', serif;
@@ -489,11 +514,6 @@ ul {
 #row-resume_content #list-contact-info {
   margin-bottom: 0;
 }
-#section-3 h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 16pt;
-  text-align: left;
-  line-height: 140%;
-  color: #5282FD;
+#section-3 .row-50_50-primary p {
+  margin: 0;
 }
