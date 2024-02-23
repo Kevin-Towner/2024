@@ -2,11 +2,11 @@
   .container-screen_content-67{
     width:50vw;
   }
+  .section .button-row form button span{
+    font-size:13pt;
+  }
   p{
     font-size:14.5pt;
-  }
-  .section .button-column form button span{
-    ,font-size:13.5pt;
   }
 }
 
