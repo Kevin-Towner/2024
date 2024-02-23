@@ -82,7 +82,7 @@
 .row-50_50-primary {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 0.5em;
+  grid-gap: 1em;
   margin-bottom: 1.5em;
 }
 .row-100-primary {
