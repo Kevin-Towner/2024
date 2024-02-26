@@ -117,12 +117,12 @@
 }
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.3px;
-  font-size: 20pt;
+  font-size: 16pt;
   text-align: left;
   line-height: 140%;
-  color: #5282FD;
+  color: #565f6d;
 }
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
@@ -252,6 +252,16 @@ h4 {
   line-height: 140%;
   color: #6C7583;
 }
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14.5pt;
+  letter-spacing: 0.3px;
+  margin: 0 0 12px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #6C7583;
+}
 p {
   font-family: 'Roboto Slab', serif;
   margin: 0;
@@ -317,12 +327,12 @@ ul {
 }
 #row-resume_content h3 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.3px;
-  font-size: 20pt;
+  font-size: 16pt;
   text-align: left;
   line-height: 140%;
-  color: #5282FD;
+  color: #565f6d;
 }
 #row-resume_content h4 {
   font-family: 'Roboto', sans-serif;
