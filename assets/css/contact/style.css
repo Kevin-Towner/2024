@@ -100,7 +100,7 @@
   font-weight: 400;
   font-size: 20pt;
   text-align: left;
-  color: #6C7583;
+  color: #565f6d;
   border-bottom: 1px solid #a9a9a9;
   line-height: 0.1em;
   margin: 0 0 1em 0;
@@ -144,7 +144,7 @@
   font-size: 12pt;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
 }
 .font-hyperlink_text {
@@ -152,7 +152,7 @@
   margin: 0;
   font-size: 12pt;
   line-height: 160%;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
   text-decoration: none;
   font-weight: 300;
@@ -167,7 +167,7 @@
   margin: 0;
   font-size: 12pt;
   line-height: 160%;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
   color: #2E69FF;
   text-decoration: none;
@@ -178,7 +178,7 @@
   color: #2E69FF;
 }
 .font-caption {
-  color: #252825;
+  color: #616B7B;
   font-family: 'Roboto Slab', serif;
   font-size: 11pt;
   line-height: 140%;
@@ -217,7 +217,7 @@ h2 {
   font-weight: 400;
   font-size: 20pt;
   text-align: left;
-  color: #6C7583;
+  color: #565f6d;
   border-bottom: 1px solid #a9a9a9;
   line-height: 0.1em;
   margin: 0 0 1em 0;
@@ -261,7 +261,7 @@ p {
   font-size: 12pt;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
 }
 ul {
@@ -270,7 +270,7 @@ ul {
   font-size: 12pt;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
 }
 .section .button-column {

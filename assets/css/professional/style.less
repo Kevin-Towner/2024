@@ -10,7 +10,8 @@
 
 
 @color-text-h: #565f6d;
-@color-text-p: #252825;
+// @color-text-p: #252825;
+@color-text-p: #616B7B;
 @color-background: #FCFCFC;
 @color-cta-master: #5282FD;
 @color-cta-secondary: #6C7583;
@@ -142,7 +143,7 @@
   font-weight:400;
   font-size:20pt;
   text-align: left;
-  color:@color-text_2;
+  color:@color-text-p;
   border-bottom:1px solid @color-light_grey;
   line-height: 0.1em;
   margin:0 0 1em 0;
@@ -165,7 +166,7 @@
   // font-family: 'Roboto', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-weight:400;
-  font-size:16pt;
+  font-size:14pt;
   letter-spacing:.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -267,9 +268,10 @@ h3{
 }
 
 h4{
+  // font-family: 'Roboto', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-weight:400;
-  font-size:14.5pt;
+  font-size:14pt;
   letter-spacing:.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -339,6 +341,9 @@ ul{
   padding:3em 1.5em 3em 1.5em;
   border-radius:2px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  p{
+    color:#252825;
+  }
   h3{
     .font-heading_text-h3;
   }
@@ -407,6 +412,7 @@ ul{
           list-style-position:inside;
           list-style-type: disc;
           margin-top:8px;
+          color:#252825;
           li{
             line-height:160%;
             margin-left:1em;
@@ -427,11 +433,14 @@ ul{
           .font-body_text-p;
           font-size:12pt;
           font-weight:400;
+          color:#252825;
         }
         .company-name{
           .font-body_text-p;
           font-size:12pt;
           font-weight:400;
+          color:#252825;
+
         }
         .job-dates{
           .font-body_text-p;
@@ -449,6 +458,7 @@ ul{
           list-style-position:inside;
           list-style-type: disc;
           margin-top:8px;
+          color:#252825;
           li{
             line-height:160%;
             margin-left:1em;
@@ -470,11 +480,13 @@ ul{
           .font-body_text-p;
           font-size:12pt;
           font-weight:400;
+          color:#252825;
         }
         .company-name{
           .font-body_text-p;
           font-size:12pt;
           font-weight:400;
+          color:#252825;
         }
         .job-dates{
           .font-body_text-p;
@@ -497,6 +509,9 @@ ul{
   .row-50_50-primary{
     p{
       margin:0;
+    }
+    h4{
+      margin:.5em 0 0;
     }
   }
 }

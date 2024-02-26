@@ -106,7 +106,7 @@
   font-weight: 400;
   font-size: 20pt;
   text-align: left;
-  color: #6C7583;
+  color: #616B7B;
   border-bottom: 1px solid #a9a9a9;
   line-height: 0.1em;
   margin: 0 0 1em 0;
@@ -127,7 +127,7 @@
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16pt;
+  font-size: 14pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -150,7 +150,7 @@
   font-size: 12pt;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
 }
 .font-hyperlink_text {
@@ -158,7 +158,7 @@
   margin: 0;
   font-size: 12pt;
   line-height: 160%;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
   text-decoration: none;
   font-weight: 300;
@@ -173,7 +173,7 @@
   margin: 0;
   font-size: 12pt;
   line-height: 160%;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
   color: #2E69FF;
   text-decoration: none;
@@ -185,7 +185,7 @@
   color: #2E69FF;
 }
 .font-caption {
-  color: #252825;
+  color: #616B7B;
   font-family: 'Roboto Slab', serif;
   font-size: 11pt;
   line-height: 140%;
@@ -224,7 +224,7 @@ h2 {
   font-weight: 400;
   font-size: 20pt;
   text-align: left;
-  color: #6C7583;
+  color: #616B7B;
   border-bottom: 1px solid #a9a9a9;
   line-height: 0.1em;
   margin: 0 0 1em 0;
@@ -245,7 +245,7 @@ h3 {
 h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 14.5pt;
+  font-size: 14pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -258,7 +258,7 @@ p {
   font-size: 12pt;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
 }
 ul {
@@ -267,7 +267,7 @@ ul {
   font-size: 12pt;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
 }
 .section .button-row form button {
@@ -312,6 +312,9 @@ ul {
   border-radius: 2px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
+#row-resume_content p {
+  color: #252825;
+}
 #row-resume_content h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -324,7 +327,7 @@ ul {
 #row-resume_content h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16pt;
+  font-size: 14pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -370,7 +373,7 @@ ul {
   font-size: 12pt;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
   font-size: 11pt;
   list-style-position: inside;
@@ -395,12 +398,13 @@ ul {
   font-size: 12pt;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
   font-size: 11pt;
   list-style-position: inside;
   list-style-type: disc;
   margin-top: 8px;
+  color: #252825;
 }
 #row-resume_content .row-70_30-primary #column-jobs div ul li {
   line-height: 160%;
@@ -422,27 +426,29 @@ ul {
   margin: 0;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
   font-size: 12pt;
   font-weight: 400;
+  color: #252825;
 }
 #row-resume_content .row-70_30-primary #column-jobs div .company-name {
   font-family: 'Roboto Slab', serif;
   margin: 0;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
   font-size: 12pt;
   font-weight: 400;
+  color: #252825;
 }
 #row-resume_content .row-70_30-primary #column-jobs div .job-dates {
   font-family: 'Roboto Slab', serif;
   margin: 0;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
   font-size: 12pt;
   font-style: italic;
@@ -454,12 +460,13 @@ ul {
   font-size: 12pt;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
   font-size: 11pt;
   list-style-position: inside;
   list-style-type: disc;
   margin-top: 8px;
+  color: #252825;
 }
 #row-resume_content .row-70_30-primary #column-skills div ul li {
   line-height: 160%;
@@ -467,7 +474,7 @@ ul {
 }
 #row-resume_content .row-70_30-primary #column-skills div ul li a {
   text-decoration: none;
-  color: #252825;
+  color: #616B7B;
   font-weight: 400;
 }
 #row-resume_content .row-70_30-primary #column-skills div ul li a:hover {
@@ -482,27 +489,29 @@ ul {
   margin: 0;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
   font-size: 12pt;
   font-weight: 400;
+  color: #252825;
 }
 #row-resume_content .row-70_30-primary #column-skills div .company-name {
   font-family: 'Roboto Slab', serif;
   margin: 0;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
   font-size: 12pt;
   font-weight: 400;
+  color: #252825;
 }
 #row-resume_content .row-70_30-primary #column-skills div .job-dates {
   font-family: 'Roboto Slab', serif;
   margin: 0;
   line-height: 160%;
   font-weight: 300;
-  color: #252825;
+  color: #616B7B;
   margin: 0 0 1em 0;
   font-size: 12pt;
   font-style: italic;
@@ -516,4 +525,7 @@ ul {
 }
 #section-3 .row-50_50-primary p {
   margin: 0;
+}
+#section-3 .row-50_50-primary h4 {
+  margin: 0.5em 0 0;
 }
