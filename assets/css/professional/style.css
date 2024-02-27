@@ -327,12 +327,9 @@ ul {
 }
 #row-resume_content h3 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.3px;
-  font-size: 16pt;
-  text-align: left;
-  line-height: 140%;
-  color: #565f6d;
+  font-weight: 500;
+  font-size: 28pt;
+  color: #5282FD;
 }
 #row-resume_content h4 {
   font-family: 'Roboto', sans-serif;
@@ -538,4 +535,11 @@ ul {
 }
 #section-3 .row-50_50-primary h4 {
   margin: 0.5em 0 0;
+}
+#section-3 .row-50_50-primary ul > li {
+  margin-left: 0.5em;
+}
+#section-3 .row-50_50-primary ul > li:before {
+  content: '- ';
+  font-weight: 300;
 }

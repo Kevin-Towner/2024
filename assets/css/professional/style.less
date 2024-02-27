@@ -331,7 +331,10 @@ ul{
     color:#252825;
   }
   h3{
-    .font-heading_text-h3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 28pt;
+    color: @color-cta-master;
   }
 
   h4{
@@ -498,6 +501,13 @@ ul{
     }
     h4{
       margin:.5em 0 0;
+    }
+    ul > li{
+      margin-left:.5em;
+      &:before{
+        content:'- ';
+        font-weight:300;
+      }
     }
   }
 }
