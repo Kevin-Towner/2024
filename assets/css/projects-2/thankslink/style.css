@@ -128,6 +128,19 @@
 .divider-space .divider-line {
   border: 1px solid #1B58F5;
 }
+.page-marker .row-100-primary {
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+.page-marker .row-100-primary h3 {
+  text-align: center;
+  padding: 1em 0 1em 0;
+  color: #FCFCFC;
+}
+.page-marker .row-100-primary .divider-line {
+  width: 33%;
+  border: 0.5px solid #FCFCFC;
+}
 /* - - - - FONTS - - - - - - */
 .font-h1 {
   font-family: "Outfit", sans-serif;
@@ -422,24 +435,11 @@ ul {
   padding-top: 2em;
 }
 #section-2 #section-2-row-2 .row-50_50-primary {
-  grid-gap: 1em;
+  grid-gap: 2em;
 }
 #section-2 #section-2-row-2 .row-50_50-primary div img {
   width: 100%;
   border: 1px solid lightgrey;
-}
-#section-3 .row-100-primary {
-  width: 50%;
-  margin: 0 auto 0 auto;
-}
-#section-3 .row-100-primary h3 {
-  text-align: center;
-  padding: 1em 0 1em 0;
-  color: #FCFCFC;
-}
-#section-3 .row-100-primary .divider-line {
-  width: 33%;
-  border: 0.5px solid #FCFCFC;
 }
 #section-4 {
   padding: 2em 0 2em 0;
