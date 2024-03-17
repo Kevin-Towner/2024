@@ -46,52 +46,56 @@
 
 .divider-space {
   padding: 2rem 0;
-
+  display:none;
   .divider-line {
     border:.5px solid #6C7583;
     width:67%;
-    display:none;
   }
 }
 /* - - - - - FONTS - - - - - - - -*/
 .font-h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
-  font-size: 20pt;
+  font-style: normal;
+  font-size:28px;
   margin-bottom: .5em;
   color: @color-text-h;
 }
 
 .font-divider-h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 20pt;
-  text-align: left;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
   color: @color-text-h;
-  border-bottom: 1px solid @color-light-grey;
+  font-size:28px;
+  border-bottom:1px solid @color-text-p;
   line-height: 0.1em;
-  margin: 0 0 1em;
-
-  span {
-    background: @color-background;
-    padding: 0 0.5em 0 0;
+  margin:0 0 1em 0;
+  span{
+    background:@color-background;
+    padding:0 .5em 0 0px;
   }
 }
 
 .font-h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
   font-size: 16pt;
   color: @color-text-h2;
 }
 
 .font-p {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-  font-size: 12pt;
-  margin-bottom: 1em;
-  color: @color-text-p;
-  line-height: 160%;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color:@color-text-p;
+  font-size:16.5px;
+  line-height:140%;
 }
 
 .font-anchor {
@@ -155,7 +159,7 @@ html {
       #section-2 {
         display: flex;
         flex-direction: column;
-
+        margin-bottom:2em;
         .button-row {
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -170,10 +174,11 @@ html {
               transition: 0.3s;
 
               span {
-                font-family: 'Roboto', sans-serif;
+                font-family: "Outfit", sans-serif;
+                font-optical-sizing: auto;
                 font-weight: 400;
-                font-size: 11.5pt;
-                letter-spacing: 0.4px;
+                font-style: normal;
+                font-size:16px;
               }
 
               &:hover {

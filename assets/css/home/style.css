@@ -1,3 +1,19 @@
+/*.outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
+/*
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*/
 /* - - - -CONTAINERS - - - - - */
 .container-content-67 {
   display: flex;
@@ -14,66 +30,72 @@
 }
 .divider-space {
   padding: 2rem 0;
+  display: none;
 }
 .divider-space .divider-line {
   border: 0.5px solid #6C7583;
   width: 67%;
-  display: none;
 }
 /* - - - - - FONTS - - - - - - - -*/
 .font-h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
-  font-size: 20pt;
+  font-style: normal;
+  font-size: 28px;
   margin-bottom: 0.5em;
   color: #565f6d;
 }
 .font-divider-h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 20pt;
-  text-align: left;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
   color: #565f6d;
-  border-bottom: 1px solid #a9a9a9;
+  font-size: 28px;
+  border-bottom: 1px solid #616B7B;
   line-height: 0.1em;
-  margin: 0 0 1em;
+  margin: 0 0 1em 0;
 }
 .font-divider-h2 span {
   background: #FCFCFC;
-  padding: 0 0.5em 0 0;
+  padding: 0 0.5em 0 0px;
 }
 .font-h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
   font-size: 16pt;
   color: #fcfcfc;
 }
 .font-p {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-  font-size: 12pt;
-  margin-bottom: 1em;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   color: #616B7B;
-  line-height: 160%;
+  font-size: 16.5px;
+  line-height: 140%;
 }
 .font-anchor {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-  font-size: 12pt;
-  margin-bottom: 1em;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   color: #616B7B;
-  line-height: 160%;
+  font-size: 16.5px;
+  line-height: 140%;
   text-decoration: none;
   font-weight: 400;
   color: #5282FD;
 }
 .font-button {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-  font-size: 12pt;
-  margin-bottom: 1em;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   color: #616B7B;
-  line-height: 160%;
+  font-size: 16.5px;
+  line-height: 140%;
   text-decoration: none;
   font-weight: 400;
   letter-spacing: 0.2px;
@@ -110,17 +132,20 @@ html body main section {
   text-align: center;
 }
 html body main section div p {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-  font-size: 12pt;
-  margin-bottom: 1em;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   color: #616B7B;
-  line-height: 160%;
+  font-size: 16.5px;
+  line-height: 140%;
 }
 html body main section div h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
-  font-size: 20pt;
+  font-style: normal;
+  font-size: 28px;
   margin-bottom: 0.5em;
   color: #565f6d;
 }
@@ -132,6 +157,7 @@ html body main #section-1 #logo-image {
 html body main #section-2 {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2em;
 }
 html body main #section-2 .button-row {
   display: grid;
@@ -146,10 +172,11 @@ html body main #section-2 .button-row form button {
   transition: 0.3s;
 }
 html body main #section-2 .button-row form button span {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
-  font-size: 11.5pt;
-  letter-spacing: 0.4px;
+  font-style: normal;
+  font-size: 16px;
 }
 html body main #section-2 .button-row form button:hover {
   cursor: pointer;
@@ -201,8 +228,10 @@ html body main #section-3 .row-33_33_33-primary div a div div {
   bottom: 3px;
 }
 html body main #section-3 .row-33_33_33-primary div a div div h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
   font-size: 16pt;
   color: #fcfcfc;
   text-align: center;
@@ -210,12 +239,13 @@ html body main #section-3 .row-33_33_33-primary div a div div h2 {
   margin-top: 2em;
 }
 html body main #section-3 .row-33_33_33-primary div a div div p {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-  font-size: 12pt;
-  margin-bottom: 1em;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   color: #616B7B;
-  line-height: 160%;
+  font-size: 16.5px;
+  line-height: 140%;
   color: #FFDA1B;
 }
 html body main #section-3 .row-33_33_33-primary div a div div:hover {
