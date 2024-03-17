@@ -40,7 +40,6 @@
 
   @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
     html body main section div h1{
-      text-align: left;
       margin:0;
       line-height: 125%;
       font-size:16pt;
@@ -61,6 +60,10 @@
         width:80%;
     }
 
+    html body main section{
+      text-align: center;
+    }
+
     html body main #section-1{
       display:flex;
       flex-direction:row;
@@ -75,8 +78,11 @@
       display:none;
     }
 
+    html body main #section-1 div{
+      width:100%;
+    }
+
     html body main section div p{
-      text-align: left;
     }
 
     html body main #section-2 .button-row{
