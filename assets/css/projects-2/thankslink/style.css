@@ -100,9 +100,6 @@
 .row-33_33_33-primary div a h4:hover {
   opacity: 0.92;
 }
-.row-33_33_33-primary div .font-caption {
-  display: none;
-}
 .row-70_30-primary {
   display: grid;
   grid-template-columns: 2fr 1fr;
