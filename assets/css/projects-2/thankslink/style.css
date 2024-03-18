@@ -521,3 +521,7 @@ ul {
 #section-7 {
   padding: 2em 0;
 }
+#section-7 .row-50_50-primary div a img {
+  border: 1px solid lightgrey;
+  width: 100%;
+}
