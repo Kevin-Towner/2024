@@ -30,7 +30,7 @@
 }
 #background-section-3,
 #background-section-6 {
-  background: #5282FD;
+  background: #2E69FF;
   padding: 2em 0 2em 0;
 }
 /* - - - -CONTAINERS - - - - - */
@@ -348,8 +348,8 @@ ul {
   border-radius: 2px;
   transition: 0.3s;
   color: #fff;
-  border: 2px solid #5282FD;
-  background-color: #5282FD;
+  border: 2px solid #2E69FF;
+  background-color: #2E69FF;
 }
 .section .button-row form button:hover {
   background-color: #1B58F5;
