@@ -439,7 +439,7 @@ ul {
   border: 1px solid lightgrey;
 }
 #section-4 {
-  padding: 2em 0 2em 0;
+  padding: 2em 0 0em 0;
 }
 #section-4 #section-4-row-2 .row-50_50-primary {
   grid-gap: 1em;
@@ -504,7 +504,6 @@ ul {
 }
 #section-6 .row-100-primary {
   width: 50%;
-  margin: 0 auto 0 auto;
 }
 #section-6 .row-100-primary h3 {
   text-align: center;
