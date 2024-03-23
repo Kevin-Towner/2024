@@ -29,7 +29,7 @@
   background: #1B58F5;
 }
 #background-section-3,
-#background-section-6 {
+#background-section-7 {
   background: #2E69FF;
   padding: 2em 0 2em 0;
 }
@@ -237,8 +237,8 @@
 }
 .font-caption {
   color: #616B7B;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 16.5px;
+  font-weight: 300;
 }
 .font-italic {
   font-style: italic;
@@ -423,8 +423,7 @@ ul {
 }
 #section-1 #section-1-row-2 div .row-33_33_33-primary p {
   color: #616B7B;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 16.5px;
   font-weight: 300;
   color: #fff;
 }
@@ -457,30 +456,19 @@ ul {
 }
 #section-4 #section-4-row-2 .row-50_50-primary div ul li p {
   color: #616B7B;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 16.5px;
+  font-weight: 300;
   margin-left: 4px;
   margin-bottom: 8px;
 }
 #section-5 {
   padding: 2em 0;
 }
-#section-5 #section-5-row-2 .row-25_25_25_25-primary {
+#section-5 #section-5-row-2 .row-50_50-primary {
   grid-gap: 1em;
   color: red;
 }
-#section-5 #section-5-row-2 .row-25_25_25_25-primary div h3 {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 18px;
-  font-weight: 400;
-  margin: 0 0 4px 0;
-  text-align: left;
-  line-height: 140%;
-  color: #565f6d;
-  text-align: center;
-}
-#section-5 #section-5-row-2 .row-25_25_25_25-primary div a img {
+#section-5 #section-5-row-2 .row-50_50-primary div a img {
   width: 100%;
   border: 1px solid #a9a9a9;
 }
@@ -497,27 +485,62 @@ ul {
 }
 #section-5 #section-5-row-3 .row-50_50-primary div ul li p {
   color: #616B7B;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 16.5px;
+  font-weight: 300;
   margin-left: 4px;
   margin-bottom: 8px;
 }
-#section-6 .row-100-primary {
-  width: 50%;
-}
-#section-6 .row-100-primary h3 {
-  text-align: center;
-  padding: 1em 0 1em 0;
-  color: #FCFCFC;
-}
-#section-6 .row-100-primary .divider-line {
-  width: 33%;
-  border: 0.5px solid #FCFCFC;
-}
-#section-7 {
+#section-6 {
   padding: 2em 0;
 }
-#section-7 .row-33_33_33-primary div a img {
-  border: 1px solid lightgrey;
+#section-6 #section-6-row-2 .row-50_50-primary div a img {
   width: 100%;
+  border: 1px solid lightgrey;
+}
+#section-6 #section-6-row-2 .row-50_50-primary div ul li {
+  display: inline-flex;
+}
+#section-6 #section-6-row-2 .row-50_50-primary div ul li:before {
+  content: '\25B9';
+  color: #1B58F5;
+}
+#section-6 #section-6-row-2 .row-50_50-primary div ul li p {
+  color: #616B7B;
+  font-size: 16.5px;
+  font-weight: 300;
+  margin-left: 4px;
+  margin-bottom: 8px;
+}
+#section-6 #section-6-row-3 .row-25_25_25_25-primary {
+  margin-top: 1em;
+  grid-gap: 1em;
+}
+#section-6 #section-6-row-3 .row-25_25_25_25-primary div a img {
+  width: 100%;
+  border: 1px solid lightgrey;
+}
+#section-8 {
+  padding: 2em 0;
+}
+#section-8 #section-8-row-2 .row-33_33_33-primary,
+#section-8 #section-8-row-3 .row-33_33_33-primary {
+  margin-bottom: 2em;
+}
+#section-8 #section-8-row-2 .row-33_33_33-primary div a img,
+#section-8 #section-8-row-3 .row-33_33_33-primary div a img {
+  width: 100%;
+  border: 1px solid lightgrey;
+}
+#section-8 #section-8-row-2 .row-33_33_33-primary div h4,
+#section-8 #section-8-row-3 .row-33_33_33-primary div h4 {
+  text-align: center;
+}
+#section-8 #section-8-row-2 .row-50_50-primary div a img,
+#section-8 #section-8-row-3 .row-50_50-primary div a img {
+  width: 100%;
+  border: 1px solid lightgrey;
+}
+#section-8 #section-8-row-2 .row-50_50-primary div h4,
+#section-8 #section-8-row-3 .row-50_50-primary div h4 {
+  text-align: center;
 }

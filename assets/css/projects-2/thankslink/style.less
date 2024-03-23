@@ -53,7 +53,7 @@
   background: linear-gradient(90deg, rgba(0,4,62,1) 0%, rgba(3,21,89,1) 32%, rgba(15,47,242,1) 100%);
   background:@color-cta-hover;
 }
-#background-section-3, #background-section-6{
+#background-section-3, #background-section-7{
   background:@color-cta-master;
   padding:2em 0 2em 0;
 }
@@ -277,8 +277,8 @@
 }
 .font-caption{
   color:@color-text-p;
-  font-size:16px;
-  font-weight:400;
+  font-size:16.5px;
+  font-weight:300;
 }
 
 .font-italic{
@@ -476,14 +476,10 @@ ul{
 #section-5{
   padding:2em 0;
   #section-5-row-2{
-    .row-25_25_25_25-primary{
+    .row-50_50-primary{
       grid-gap:1em;
       color:red;
       div{
-        h3{
-          .font-heading_text-h4;
-          text-align:center;
-        }
         a{
           img{
             width:100%;
@@ -521,27 +517,75 @@ ul{
   }
 }
 #section-6{
-  .row-100-primary{
-    width:50%;
-    h3{
-      text-align: center;
-      padding:1em 0 1em 0;
-      color:@color-background;
+  padding:2em 0;
+  #section-6-row-2{
+    .row-50_50-primary{
+      div{
+        a{
+          img{
+            width:100%;
+            border:1px solid lightgrey;
+          }
+        }
+        ul{
+          li{
+            display:inline-flex;
+            &:before{
+              content:'\25B9';
+              color:@color-cta-hover;
+            }
+            p{
+              .font-caption;
+              margin-left:4px;
+              margin-bottom:8px;
+            }
+          }
+        }
+      }
     }
-    .divider-line{
-      width:33%;
-      border:.5px solid @color-background;
+  }
+  #section-6-row-3{
+    .row-25_25_25_25-primary{
+      margin-top:1em;
+      grid-gap:1em;
+      div{
+        a{
+          img{
+            width:100%;
+            border:1px solid lightgrey;
+          }
+        }
+      }
     }
   }
 }
-#section-7{
+#section-8{
   padding:2em 0;
-  .row-33_33_33-primary{
-    div{
-      a{
-        img{
-          border:1px solid lightgrey;
-          width:100%;
+  #section-8-row-2, #section-8-row-3{
+    .row-33_33_33-primary{
+      margin-bottom:2em;
+      div{
+        a{
+          img{
+            width:100%;
+            border:1px solid lightgrey;
+          }
+        }
+        h4{
+          text-align: center;
+        }
+      }
+    }
+    .row-50_50-primary{
+      div{
+        a{
+          img{
+            width:100%;
+            border:1px solid lightgrey;
+          }
+        }
+        h4{
+          text-align: center;
         }
       }
     }

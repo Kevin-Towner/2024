@@ -61,6 +61,7 @@
   .container-screenContent-67{
     width:80% !important;
   }
+
   .row-50_50-primary{
     grid-template-columns:1fr;
   }
@@ -79,5 +80,14 @@
   #section-1 #section-1-row-2 div .row-33_33_33-primary #row-33_33_33-column-2{
     border-left:none;
     border-right:none;;
+  }
+  #section-1 #section-1-row-2 p{
+    margin-bottom:1em;
+  }
+  #section-1 #section-1-row-2 div .row-33_33_33-primary p{
+    margin-bottom:0;
+  }
+  #section-1 #section-1-row-1 .font-caption{
+    margin-bottom:0;
   }
 }
