@@ -91,12 +91,10 @@
   }
 
   nav .nav-content #navigation-right #menu li a{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
     font-size: 16pt;
     color: #565f6d;
     display:block;
-    padding:36px 0 36px 0;
+    padding:4em 0 4em 0;
     text-align: center;
     margin-right:0 !important;
   }

@@ -42,10 +42,11 @@ nav .nav-content #navigation-right #menu li:nth-child(1) a {
 nav .nav-content #navigation-right #menu li a {
   text-decoration: none;
   color: #565f6d;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
-  font-size: 11pt;
-  letter-spacing: 0.2px;
+  font-style: normal;
+  font-size: 16.5px;
 }
 nav .nav-content #navigation-right #menu li a:hover {
   color: #1B58F5;
