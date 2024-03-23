@@ -531,6 +531,10 @@ ul {
   width: 100%;
   border: 1px solid lightgrey;
 }
+#section-8 #section-8-row-2 .row-33_33_33-primary div a #global-component-image,
+#section-8 #section-8-row-3 .row-33_33_33-primary div a #global-component-image {
+  min-height: 80%;
+}
 #section-8 #section-8-row-2 .row-33_33_33-primary div h4,
 #section-8 #section-8-row-3 .row-33_33_33-primary div h4 {
   text-align: center;
