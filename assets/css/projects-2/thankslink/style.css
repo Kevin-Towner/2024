@@ -29,7 +29,8 @@
   background: #1B58F5;
 }
 #background-section-3,
-#background-section-7 {
+#background-section-7,
+#background-section-9 {
   background: #2E69FF;
   padding: 2em 0 2em 0;
 }
@@ -547,4 +548,7 @@ ul {
 #section-8 #section-8-row-2 .row-50_50-primary div h4,
 #section-8 #section-8-row-3 .row-50_50-primary div h4 {
   text-align: center;
+}
+#section-10 {
+  padding: 2em 0;
 }
