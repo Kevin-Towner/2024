@@ -552,3 +552,10 @@ ul {
 #section-10 {
   padding: 2em 0;
 }
+#section-10 #section-10-row-2 div a img {
+  width: 100%;
+  border: 1px solid lightgrey;
+}
+#section-10 #section-10-row-2 div h4 {
+  text-align: center;
+}
