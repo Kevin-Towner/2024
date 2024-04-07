@@ -30,7 +30,7 @@
 }
 #background-section-3,
 #background-section-7,
-#background-section-9 {
+#background-section-11 {
   background: #2E69FF;
   padding: 2em 0 2em 0;
 }
@@ -138,6 +138,26 @@
 .page-marker .row-100-primary .divider-line {
   width: 33%;
   border: 0.5px solid #FCFCFC;
+}
+.back-to-top {
+  text-align: right;
+}
+.back-to-top a {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #616B7B;
+  margin: 0 0 1em 0;
+  font-size: 18px;
+  line-height: 135%;
+  color: #2E69FF;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14pt;
+}
+.back-to-top a:hover {
+  text-decoration: underline;
+  color: #2E69FF;
 }
 /* - - - - FONTS - - - - - - */
 .font-h1 {
@@ -549,16 +569,37 @@ ul {
 #section-8 #section-8-row-3 .row-50_50-primary div h4 {
   text-align: center;
 }
-#section-10 {
-  padding: 2em 0;
+#section-10 #section-10-row-2 ul {
+  margin-bottom: 0;
 }
-#section-10 #section-10-row-2 div a img {
+#section-10 #section-10-row-2 ul .row-section-10-row-2-linked-list {
+  margin-bottom: 0.5em;
+}
+#section-10 #section-10-row-3 div a img {
   width: 100%;
   border: 1px solid lightgrey;
 }
-#section-10 #section-10-row-2 div h4 {
+#section-10 #section-10-row-3 div h4 {
   text-align: center;
 }
-#section-10 #section-10-row-2 .row-100-primary {
-  margin-top: 1em;
+#section-12 {
+  padding: 2em 0;
+}
+#section-12 ul {
+  display: flex;
+  flex-direction: column;
+}
+#section-12 ul li {
+  display: inline-flex;
+}
+#section-12 ul li:before {
+  content: '\25B9';
+  color: #1B58F5;
+}
+#section-12 ul li p {
+  color: #616B7B;
+  font-size: 16.5px;
+  font-weight: 300;
+  margin-left: 4px;
+  margin-bottom: 8px;
 }
