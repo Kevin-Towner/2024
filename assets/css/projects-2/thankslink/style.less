@@ -184,8 +184,15 @@
 
 .back-to-top{
   text-align: right;
-  a{
-    .font-hyperlink_in-text
+  p{
+    margin:0;
+    a{
+      .font-hyperlink_in-text;
+      &:after{
+        content:'\21D1' ;
+        color:@color-cta-hover;
+      }
+    }
   }
 }
 

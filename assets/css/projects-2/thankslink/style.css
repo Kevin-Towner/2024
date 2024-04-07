@@ -142,7 +142,10 @@
 .back-to-top {
   text-align: right;
 }
-.back-to-top a {
+.back-to-top p {
+  margin: 0;
+}
+.back-to-top p a {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -155,9 +158,13 @@
   font-weight: 300;
   font-size: 14pt;
 }
-.back-to-top a:hover {
+.back-to-top p a:hover {
   text-decoration: underline;
   color: #2E69FF;
+}
+.back-to-top p a:after {
+  content: '\21D1';
+  color: #1B58F5;
 }
 /* - - - - FONTS - - - - - - */
 .font-h1 {
