@@ -39,6 +39,9 @@ nav .nav-content #navigation-right #menu {
 nav .nav-content #navigation-right #menu li:nth-child(1) a {
   margin-right: 1.5rem;
 }
+nav .nav-content #navigation-right #menu li:nth-child(2) a {
+  margin-right: 1.5rem;
+}
 nav .nav-content #navigation-right #menu li a {
   text-decoration: none;
   color: #565f6d;

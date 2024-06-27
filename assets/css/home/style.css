@@ -40,10 +40,11 @@
 .font-h1 {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   color: #565f6d;
   font-size: 44px;
+  margin-bottom: 0.5em;
 }
 .font-divider-h2 {
   font-family: "Outfit", sans-serif;
@@ -62,11 +63,13 @@
 }
 .font-h2 {
   font-family: "Outfit", sans-serif;
+  margin: 0 0 12px 0;
+  line-height: 150%;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 16pt;
-  color: #fcfcfc;
+  color: #565f6d;
+  font-size: 22px;
 }
 .font-p {
   font-family: "Open Sans", sans-serif;
@@ -142,10 +145,11 @@ html body main section div p {
 html body main section div h1 {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   color: #565f6d;
   font-size: 44px;
+  margin-bottom: 0.5em;
 }
 html body main #section-1 #logo-image {
   margin: auto;
@@ -227,11 +231,13 @@ html body main #section-3 .row-33_33_33-primary div a div div {
 }
 html body main #section-3 .row-33_33_33-primary div a div div h2 {
   font-family: "Outfit", sans-serif;
+  margin: 0 0 12px 0;
+  line-height: 150%;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 16pt;
-  color: #fcfcfc;
+  color: #565f6d;
+  font-size: 22px;
   text-align: center;
   color: #fff;
   margin-top: 2em;
