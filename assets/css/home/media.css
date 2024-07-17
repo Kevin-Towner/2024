@@ -12,46 +12,31 @@
     html body main #section-1 #logo-image{
       width:10em;
     }
-
-    html body main section div p{
-      font-size:14.5pt;
-    }
-
-    html body main #section-2 .button-row a button span{
-      font-size:13pt;
-    }
   }
 
   @media screen and (max-width:880px){
-    html body main #section-3 .row-33_33_33-primary{
-      grid-template-columns: 1fr 1fr;
+    html body main #section-2 .row-33_33_33-primary{
+      grid-template-columns: 1fr;
     }
-    html body main #section-3 .row-33_33_33-primary div a div div h2{
-      font-size:13pt;
+    html body main #section-2 .row-33_33_33-primary div a div div h2{
     }
 
-    html body main #section-3 .row-33_33_33-primary div a div div p{
+    html body main #section-2 .row-33_33_33-primary div a div div p{
       width:90%;
-      text-align: center;
       margin:0 auto 0 auto;
-      font-size:10.5pt;
     }
   }
 
   @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
     html body main section div h1{
-      margin:0;
       line-height: 125%;
-      font-size:28px;
+      font-size:44px;
+      text-align: left;
     }
 
     html body main section div p{
       font-size:18px;
-    }
-
-    html body main #section-2 .button-row form button span{
-      font-size:10.5pt;
-      letter-spacing:0;
+      text-align: left;
     }
 
     html body main{
@@ -69,7 +54,7 @@
       flex-direction:row;
       gap:1em;
       align-items:center;
-      margin-bottom:1em;
+      margin-bottom:2em;
     }
 
     html body main #section-1 #logo-image{
@@ -85,33 +70,21 @@
     html body main section div p{
     }
 
-    html body main #section-2 .button-row{
-      display:flex;
-      flex-direction: column;
-      gap:1em;
-      margin:0;
-      width:100%;
-    }
-
-    html body main #section-2 .button-row form #button-1{
-      min-width:100%;
-    }
-    html body main #section-2 .button-row form #button-2{
-      min-width:100%;
-    }
-    html body main #section-3 .row-33_33_33-primary{
+    html body main #section-2 .row-33_33_33-primary{
       grid-template-columns:1fr;
     }
 
-    html body main #section-3 .row-33_33_33-primary div a div div h2{
-      font-size:13pt;
+    html body main #section-2 .row-33_33_33-primary div a div div h2{
+      /* font-size:13pt; */
+      text-align: left;
+      width:90%;
+      margin:2em auto 0 auto;
     }
 
-    html body main #section-3 .row-33_33_33-primary div a div div p{
+    html body main #section-2 .row-33_33_33-primary div a div div p{
       width:90%;
-      text-align: center;
-      margin:0 auto 0 auto;
-      font-size:10.5pt;
+      text-align:left;
+      /* margin:0 auto 0 auto */
     }
 
     .divider-space{

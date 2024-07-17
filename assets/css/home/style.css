@@ -28,79 +28,118 @@
   z-index: 0;
   min-height: 100%;
 }
+.row-70-30-primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1em;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1.5em;
+}
+.row-25-75-primary {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 1em;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1.5em;
+}
 .divider-space {
   padding: 2rem 0;
-  display: none;
 }
 .divider-space .divider-line {
-  border: 0.5px solid #6C7583;
+  border: 0.5px solid #001459;
   width: 67%;
 }
 /* - - - - - FONTS - - - - - - - -*/
 .font-h1 {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  color: #565f6d;
+  color: #001459;
   font-size: 44px;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.33em;
+  letter-spacing: -0.5px;
 }
 .font-divider-h2 {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color: #565f6d;
-  font-size: 28px;
-  border-bottom: 1px solid #616B7B;
+  color: #001459;
+  border-bottom: 1px solid #0047FF;
   line-height: 0.1em;
-  margin: 0 0 1em 0;
+  margin: 0 0 1.33em 0;
 }
 .font-divider-h2 span {
   background: #FCFCFC;
   padding: 0 0.5em 0 0px;
+  font-size: 26px;
+  letter-spacing: -0.5px;
 }
-.font-h2 {
+.font-h3 {
   font-family: "Outfit", sans-serif;
-  margin: 0 0 12px 0;
+  margin: 0 0 0.33rem 0;
   line-height: 150%;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  color: #565f6d;
+  color: #001459;
   font-size: 22px;
 }
-.font-p {
-  font-family: "Open Sans", sans-serif;
+.font-h4 {
+  font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #001459;
+}
+.font-p {
+  font-family: 'Roboto Slab', serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
   font-style: normal;
-  color: #616B7B;
+  color: #000e41;
   font-size: 18px;
   line-height: 140%;
 }
 .font-anchor {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-optical-sizing: auto;
+  font-weight: 300;
   font-style: normal;
-  color: #616B7B;
+  color: #000e41;
   font-size: 18px;
   line-height: 140%;
   text-decoration: none;
   font-weight: 400;
-  color: #5282FD;
+  color: #003ACC;
 }
 .font-button {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-optical-sizing: auto;
+  font-weight: 300;
   font-style: normal;
-  color: #616B7B;
+  color: #000e41;
   font-size: 18px;
   line-height: 140%;
   text-decoration: none;
   font-weight: 400;
   letter-spacing: 0.2px;
+}
+.font-caption {
+  font-family: 'Roboto Slab', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #000e41;
+  font-size: 18px;
+  line-height: 140%;
+  font-size: 15.5px;
+  font-weight: 300;
 }
 @keyframes fadeInAnimation {
   0% {
@@ -130,94 +169,83 @@ html body main {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-html body main section {
-  text-align: center;
+html body main mark {
+  background-color: #fffb99;
 }
-html body main section div p {
-  font-family: "Open Sans", sans-serif;
+html body main p {
+  font-family: 'Roboto Slab', serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
-  color: #616B7B;
+  color: #000e41;
   font-size: 18px;
   line-height: 140%;
 }
-html body main section div h1 {
+html body main h1 {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  color: #565f6d;
+  color: #001459;
   font-size: 44px;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.33em;
+  letter-spacing: -0.5px;
 }
-html body main #section-1 #logo-image {
-  margin: auto;
-  width: 9rem;
-  margin-bottom: 1em;
-}
-html body main #section-2 {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2em;
-}
-html body main #section-2 .button-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1em;
-  margin: auto;
-  text-align: center;
-}
-html body main #section-2 .button-row form button {
-  padding: 0.5rem 1rem;
-  border-radius: 2px;
-  transition: 0.3s;
-}
-html body main #section-2 .button-row form button span {
+html body main h2 {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  color: #001459;
+  border-bottom: 1px solid #0047FF;
+  line-height: 0.1em;
+  margin: 0 0 1.33em 0;
 }
-html body main #section-2 .button-row form button:hover {
-  cursor: pointer;
+html body main h2 span {
+  background: #FCFCFC;
+  padding: 0 0.5em 0 0px;
+  font-size: 26px;
+  letter-spacing: -0.5px;
 }
-html body main #section-2 .button-row form #button-1 {
-  color: #fff;
-  border: 2px solid #5282FD;
-  background-color: #5282FD;
+html body main h3 {
+  font-family: "Outfit", sans-serif;
+  margin: 0 0 0.33rem 0;
+  line-height: 150%;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #001459;
+  font-size: 22px;
 }
-html body main #section-2 .button-row form #button-1:hover {
-  background-color: #1B58F5;
-  color: #fff;
+html body main h4 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #001459;
 }
-html body main #section-2 .button-row form #button-2 {
-  color: #fff;
-  border: 2px solid #6C7583;
-  background-color: #6C7583;
+html body main #section-1 {
+  margin-bottom: 4rem;
 }
-html body main #section-2 .button-row form #button-2:hover {
-  background-color: #565f6d;
-  color: #fff;
-}
-html body main #section-3 .row-33_33_33-primary {
+html body main #section-2 .row-33_33_33-primary {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0.5em;
+  margin-bottom: 4rem;
 }
-html body main #section-3 .row-33_33_33-primary div a {
+html body main #section-2 .row-33_33_33-primary div a {
   position: relative;
   display: inline-block;
   vertical-align: middle;
   margin: 0;
 }
-html body main #section-3 .row-33_33_33-primary div a div div {
-  display: flex;
-  flex-direction: column;
+html body main #section-2 .row-33_33_33-primary div a div div {
   gap: 1rem;
-  background-color: #1B58F5;
-  border: 2px solid #5282FD;
+  background-color: #003ACC;
+  border: 2px solid #0047FF;
   opacity: 0;
   margin: auto;
   position: absolute;
@@ -229,40 +257,58 @@ html body main #section-3 .row-33_33_33-primary div a div div {
   right: 0;
   bottom: 3px;
 }
-html body main #section-3 .row-33_33_33-primary div a div div h2 {
+html body main #section-2 .row-33_33_33-primary div a div div .project-tile-title {
   font-family: "Outfit", sans-serif;
-  margin: 0 0 12px 0;
-  line-height: 150%;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: #565f6d;
-  font-size: 22px;
-  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #001459;
   color: #fff;
-  margin-top: 2em;
+  margin: 3rem 1rem 0.33rem 1rem;
 }
-html body main #section-3 .row-33_33_33-primary div a div div p {
-  font-family: "Open Sans", sans-serif;
+html body main #section-2 .row-33_33_33-primary div a div div .project-tile-brief {
+  font-family: 'Roboto Slab', serif;
   font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
-  color: #616B7B;
+  color: #000e41;
   font-size: 18px;
   line-height: 140%;
-  color: #FFDA1B;
-  margin: 0 0.5em 0 0.5em;
+  font-size: 15.5px;
+  font-weight: 300;
+  color: #FFF500;
+  margin: 0 1rem 0 1rem;
 }
-html body main #section-3 .row-33_33_33-primary div a div div:hover {
-  opacity: 0.95;
+html body main #section-2 .row-33_33_33-primary div a div div:hover {
+  opacity: 0.9;
 }
-html body main #section-3 .row-33_33_33-primary div a div img {
+html body main #section-2 .row-33_33_33-primary div a div img {
   max-width: 100%;
   min-width: 100%;
   max-height: 100%;
   min-height: 100%;
   border-radius: 2px;
 }
-html body main #section-3 .row-33_33_33-primary div .font-caption {
-  display: none;
+html body main #section-3 .row-70-30-primary {
+  margin-bottom: 0;
+}
+html body main #section-3 .row-70-30-primary ul li {
+  font-family: 'Roboto Slab', serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #000e41;
+  font-size: 18px;
+  line-height: 140%;
+}
+html body main #section-3 .row-25-75-primary ul li {
+  font-family: 'Roboto Slab', serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #000e41;
+  font-size: 18px;
+  line-height: 140%;
 }

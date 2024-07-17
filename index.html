@@ -26,10 +26,12 @@
     <script type="text/JavaScript" src="assets/js/home/javascript.js"></script>
 
     <!--fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gopogleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended&family=Roboto+Slab:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0P7SDXF3EZ"></script>
     <script>
@@ -47,29 +49,25 @@
   <nav>
     <div class="nav-content">
       <div class="navigation-section" id="navigation-left">
-          <a style="margin-bottom:0;" href= "index.html"><img id="logo" src="assets/images/branding/gundam-logo0.svg" alt=""></a>
+          <a style="margin-bottom:0;" href= "index.html"><img id="logo" src="assets/images/branding/gundam-image.png" alt=""></a>
       </div>
       <div class="navigation-section" id="navigation-right">
           <label for="toggle">☰</label>
           <input type="checkbox" id="toggle">
           <ul id="menu">
+            <li><a id="anchor-about" href= "public/professional.html">Professional</a></li>
             <li><a target="_blank" id="anchor-resume" href="assets/images/misc/resume-mast.pdf">Resume</a></li>
             <li><a id="anchor-contact" href= "public/contact.html">Contact</a></li>
-            <li><a id="anchor-contact" href= "public/about.html">About</a></li>
           </ul>
       </div>
     </div>
   </nav>
   <main>
-    <section id="section-1">
-        <img id="logo-image" src="assets/images/branding/gundam-image.png" alt="Gundam inspired logo">
-        <div>
-          <h1>Hello &amp; Welcome</h1>
-        </div>
-    </section>
-    <section id="section-2" itemscope itemtype="https://www.schema.org/Person">
+    <section id="section-1" itemscope itemtype="https://www.schema.org/Person">
+      <!-- <img id="logo-image" src="assets/images/branding/gundam-image.png" alt="Gundam inspired logo"> -->
       <div>
-        <p>My name is <span itemprop="givenName">Kevin</span> <span itemprop="familyName">Towner</span><br>I'm a web designer, digital optimization professional, and HCI enthusiast.</p>
+        <h1>Hello &amp; Welcome</h1>
+        <p>My name is <span itemprop="givenName">Kevin</span> 🙂.<br>I'm a web design, digital optimization professional, and HCI professional.</p>
       </div>
       <!-- <div class="button-row">
         <form action="#projects-jump" method="get">
@@ -84,46 +82,92 @@
         </form>
       </div> -->
     </section>
-    <div class="divider-space">
-      <hr class="divider-line">
-    </div>
-    <section id="section-3">
+    <h2><span>Side Projects</span></h2>
+    <section id="section-2">
     <a id="projects-jump"></a> <!--"Projects button jumps to this portion of page"-->
       <div class="row-33_33_33-primary">
         <div class="project-tile">
           <a href="public/projects/thankslink.html">
             <div>
               <div>
-                <h2>ThanksLink Panel UI</h2>
-                <p>ThanksLink is a travel reservation platform that offers insurance products.</p>
+                <p class="project-tile-title">ThanksLink Insurance Panel</p>
+                <p class="project-tile-brief">ThanksLink is a travel reservation platform that offers insurance products.</p>
               </div>
               <img src="assets/images/projects/thankslink/cover.png" alt="ThanksLink Tile">
             </div>
           </a>
+          <div>
+            <p class="font-caption">ThanksLink Insurance Panel</p>
+          </div>
         </div>
         <div class="project-tile">
           <a target="_blank" href="#">
             <div>
               <div>
-                <h2>Animotify</h2>
-                <p>High fidelity wireframes/prototypes for an anime music streaming service with inspiration from Spotify.</p>
+                <p class="project-tile-title">Anime Music Streaming</p>
+                <p class="project-tile-brief">High fidelity wireframes for an anime music streaming service.</p>
               </div>
               <img src="assets/images/projects/animotify/cover.png" alt="Animotify UI screens">
             </div>
           </a>
+          <div>
+            <p class="font-caption">Anime Music Streaming</p>
+          </div>
         </div>
         <div class="project-tile">
           <a target="_blank" href="#">
             <div>
               <div>
-                <h2>Simple Checkout</h2>
-                <p>Minimalistic UI design for mobile check/shopping cart.</p>
+                <p class="project-tile-title">Simple Checkout</p>
+                <p class="project-tile-brief">Minimalistic UI design for a mobile checkout &amp; shopping cart.</p>
               </div>
               <img src="assets/images/projects/prototype-1/cover.png" alt="Simple Checkout UI screens">
             </div>
           </a>
+          <div>
+            <p class="font-caption">Simple Checkout</p>
+          </div>
         </div>
       </div>
+    </section>
+    <h2><span>Professional</span></h2>
+    <section id="section-3">
+      <div class="row-70-30-primary">
+        <div>
+          <h3>Overview</h3>
+          <p><mark>I'm a designer with a background in digital optimization and human-computer interaction</mark>. I'm working at AIG Travel Guard, as a web designer for the Rapid Learning Lab Team, where <mark>I manage the day to day operations and front end content for our airline partners</mark>.</p>
+        </div>
+        <div>
+          <h4>Brands I Support:</h4>
+          <ul>
+            <li>・United Airlines</li>
+            <li>・Spirit</li>
+            <li>・Lufthansa</li>
+          </ul>
+        </div>
+      </div>
+      <div class="divider-space">
+        <hr class="divider-line">
+      </div>
+      <div class="row-25-75-primary">
+        <div>
+          <h4>Day-To-Day Tools:</h4>
+          <ul>
+            <li>・AEM</li>
+            <li>・Adobe Target</li>
+            <li>・Adobe XD</li>
+            <li>・Figma</li>
+            <li>・Adobe XD</li>
+            <li>・Postman</li>
+            <li>・HTML & CSS</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Travel Guard</h3>
+          <p><mark>I'm responsible for directly managing our panel optimization content</mark> using Adobe Experience Manager (AEM), and audience management/segmentation via Adobe Target. I'm also <mark>the lead on proof of concepts and optimization testing builds for both multivariate and A/B testing</mark>. I directly manage our website authoring teams and <mark>collaborate with data science, IT, and marketing professionals on building quantitative testing activites, data-point configuration, content mapping, and website QA</mark>.</p>
+        </div>
+      </div>
+      <h3>Tertiary</h3>
     </section>
   </main>
   <footer>
