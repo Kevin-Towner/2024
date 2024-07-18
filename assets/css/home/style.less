@@ -48,9 +48,18 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap:2em;
+  margin-bottom:2em;
   // justify-content: space-between;
   // align-items: baseline;
-  margin-bottom:1.5em;
+}
+
+.row-30-70-primary{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap:2em;
+  margin-bottom:2em;
+  // justify-content: space-between;
+  // align-items: baseline;
 }
 
 .row-50-50-primary{
@@ -123,7 +132,7 @@
 .font-h4{
   font-family: "Outfit", sans-serif;
   font-optical-sizing:auto;
-  font-size:15.5px;
+  font-size:18px;
   font-weight: 600;
   margin: 0 0 4px 0;
   text-align: left;
@@ -138,7 +147,7 @@
   font-style: normal;
   color:@color-text-p;
   font-size:18px;
-  line-height:140%;
+  line-height:130%;
 }
 
 .font-anchor {
@@ -260,8 +269,8 @@ html {
         .row-33_33_33-primary {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
-          grid-gap: 0.5em;
-          margin-bottom:4rem;
+          grid-gap: 1em;
+          margin-bottom:3rem;
           div {
             a {
               position: relative;
@@ -316,18 +325,21 @@ html {
       #section-3{
         .row-70-30-primary{
           grid-gap:3rem;
-          margin-bottom:0;
           ul{
             li{
               .font-p;
             }
           }
         }
-        #section-3-row-70-30-1{
-          margin-bottom:2rem;
-        }
-        #section-3-row-70-30-3{
-          grid-gap:8rem;
+      }
+      #section-4{
+        .row-50-50-primary{
+          margin-top:2rem;
+          ul{
+            li{
+              .font-p;
+            }
+          }
           a {
             position: relative;
             display: inline-block;
@@ -337,7 +349,7 @@ html {
               div {
                 gap: 1rem;
                 background-color: #FCFCFC;
-                border: 2px solid @color-cta-hover;
+                border: 2px solid #c4c4c4;
                 opacity: 0;
                 margin: auto;
                 position: absolute;

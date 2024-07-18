@@ -32,7 +32,13 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 2em;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
+}
+.row-30-70-primary {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 2em;
+  margin-bottom: 2em;
 }
 .row-50-50-primary {
   display: grid;
@@ -87,7 +93,7 @@
 .font-h4 {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-size: 15.5px;
+  font-size: 18px;
   font-weight: 600;
   margin: 0 0 4px 0;
   text-align: left;
@@ -101,7 +107,7 @@
   font-style: normal;
   color: #000e41;
   font-size: 18px;
-  line-height: 140%;
+  line-height: 130%;
 }
 .font-anchor {
   font-family: 'Roboto Slab', serif;
@@ -110,7 +116,7 @@
   font-style: normal;
   color: #000e41;
   font-size: 18px;
-  line-height: 140%;
+  line-height: 130%;
   text-decoration: none;
   font-weight: 400;
   color: #003ACC;
@@ -122,7 +128,7 @@
   font-style: normal;
   color: #000e41;
   font-size: 18px;
-  line-height: 140%;
+  line-height: 130%;
   text-decoration: none;
   font-weight: 400;
   letter-spacing: 0.2px;
@@ -133,7 +139,7 @@
   font-style: normal;
   color: #000e41;
   font-size: 18px;
-  line-height: 140%;
+  line-height: 130%;
   font-size: 15.5px;
   font-weight: 300;
 }
@@ -176,7 +182,7 @@ html body main p {
   font-style: normal;
   color: #000e41;
   font-size: 18px;
-  line-height: 140%;
+  line-height: 130%;
 }
 html body main h1 {
   font-family: "Outfit", sans-serif;
@@ -217,7 +223,7 @@ html body main h3 {
 html body main h4 {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-size: 15.5px;
+  font-size: 18px;
   font-weight: 600;
   margin: 0 0 4px 0;
   text-align: left;
@@ -230,8 +236,8 @@ html body main #section-1 {
 html body main #section-2 .row-33_33_33-primary {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0.5em;
-  margin-bottom: 4rem;
+  grid-gap: 1em;
+  margin-bottom: 3rem;
 }
 html body main #section-2 .row-33_33_33-primary div a {
   position: relative;
@@ -257,7 +263,7 @@ html body main #section-2 .row-33_33_33-primary div a div div {
 html body main #section-2 .row-33_33_33-primary div a div div .project-tile-title {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-size: 15.5px;
+  font-size: 18px;
   font-weight: 600;
   margin: 0 0 4px 0;
   text-align: left;
@@ -272,7 +278,7 @@ html body main #section-2 .row-33_33_33-primary div a div div .project-tile-brie
   font-style: normal;
   color: #000e41;
   font-size: 18px;
-  line-height: 140%;
+  line-height: 130%;
   font-size: 15.5px;
   font-weight: 300;
   color: #FFF500;
@@ -290,7 +296,6 @@ html body main #section-2 .row-33_33_33-primary div a div img {
 }
 html body main #section-3 .row-70-30-primary {
   grid-gap: 3rem;
-  margin-bottom: 0;
 }
 html body main #section-3 .row-70-30-primary ul li {
   font-family: 'Roboto Slab', serif;
@@ -299,24 +304,30 @@ html body main #section-3 .row-70-30-primary ul li {
   font-style: normal;
   color: #000e41;
   font-size: 18px;
-  line-height: 140%;
+  line-height: 130%;
 }
-html body main #section-3 #section-3-row-70-30-1 {
-  margin-bottom: 2rem;
+html body main #section-4 .row-50-50-primary {
+  margin-top: 2rem;
 }
-html body main #section-3 #section-3-row-70-30-3 {
-  grid-gap: 8rem;
+html body main #section-4 .row-50-50-primary ul li {
+  font-family: 'Roboto Slab', serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #000e41;
+  font-size: 18px;
+  line-height: 130%;
 }
-html body main #section-3 #section-3-row-70-30-3 a {
+html body main #section-4 .row-50-50-primary a {
   position: relative;
   display: inline-block;
   vertical-align: middle;
   margin: 0;
 }
-html body main #section-3 #section-3-row-70-30-3 a div div {
+html body main #section-4 .row-50-50-primary a div div {
   gap: 1rem;
   background-color: #FCFCFC;
-  border: 2px solid #0047FF;
+  border: 2px solid #c4c4c4;
   opacity: 0;
   margin: auto;
   position: absolute;
@@ -328,10 +339,10 @@ html body main #section-3 #section-3-row-70-30-3 a div div {
   right: 0;
   bottom: 3px;
 }
-html body main #section-3 #section-3-row-70-30-3 a div div .project-tile-title {
+html body main #section-4 .row-50-50-primary a div div .project-tile-title {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-size: 15.5px;
+  font-size: 18px;
   font-weight: 600;
   margin: 0 0 4px 0;
   text-align: left;
@@ -341,13 +352,13 @@ html body main #section-3 #section-3-row-70-30-3 a div div .project-tile-title {
   text-align: center;
   margin-top: 8em;
 }
-html body main #section-3 #section-3-row-70-30-3 a div div .project-tile-title #frog-gif {
+html body main #section-4 .row-50-50-primary a div div .project-tile-title #frog-gif {
   height: 2em;
 }
-html body main #section-3 #section-3-row-70-30-3 a div div:hover {
+html body main #section-4 .row-50-50-primary a div div:hover {
   opacity: 0.85;
 }
-html body main #section-3 #section-3-row-70-30-3 a div img {
+html body main #section-4 .row-50-50-primary a div img {
   border-radius: 2px;
   max-width: 100%;
   max-height: 100%;
