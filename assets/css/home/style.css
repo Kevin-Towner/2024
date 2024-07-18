@@ -31,17 +31,19 @@
 .row-70-30-primary {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-gap: 1em;
-  justify-content: space-between;
-  align-items: baseline;
+  grid-gap: 2em;
   margin-bottom: 1.5em;
 }
 .row-25-75-primary {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-gap: 1em;
-  justify-content: space-between;
-  align-items: baseline;
+  grid-gap: 2em;
+  margin-bottom: 1.5em;
+}
+.row-50-50-primary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
   margin-bottom: 1.5em;
 }
 .divider-space {
@@ -91,12 +93,12 @@
 .font-h4 {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-size: 18px;
+  font-size: 15.5px;
   font-weight: 600;
   margin: 0 0 4px 0;
   text-align: left;
   line-height: 140%;
-  color: #001459;
+  color: #003ACC;
 }
 .font-p {
   font-family: 'Roboto Slab', serif;
@@ -170,7 +172,8 @@ html body main {
   animation-fill-mode: forwards;
 }
 html body main mark {
-  background-color: #fffb99;
+  background-color: #ebf1ff;
+  color: #001459;
 }
 html body main p {
   font-family: 'Roboto Slab', serif;
@@ -220,12 +223,12 @@ html body main h3 {
 html body main h4 {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-size: 18px;
+  font-size: 15.5px;
   font-weight: 600;
   margin: 0 0 4px 0;
   text-align: left;
   line-height: 140%;
-  color: #001459;
+  color: #003ACC;
 }
 html body main #section-1 {
   margin-bottom: 4rem;
@@ -260,12 +263,12 @@ html body main #section-2 .row-33_33_33-primary div a div div {
 html body main #section-2 .row-33_33_33-primary div a div div .project-tile-title {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-size: 18px;
+  font-size: 15.5px;
   font-weight: 600;
   margin: 0 0 4px 0;
   text-align: left;
   line-height: 140%;
-  color: #001459;
+  color: #003ACC;
   color: #fff;
   margin: 3rem 1rem 0.33rem 1rem;
 }
@@ -292,6 +295,7 @@ html body main #section-2 .row-33_33_33-primary div a div img {
   border-radius: 2px;
 }
 html body main #section-3 .row-70-30-primary {
+  grid-gap: 3rem;
   margin-bottom: 0;
 }
 html body main #section-3 .row-70-30-primary ul li {
@@ -303,6 +307,9 @@ html body main #section-3 .row-70-30-primary ul li {
   font-size: 18px;
   line-height: 140%;
 }
+html body main #section-3 .row-25-75-primary {
+  grid-gap: 3rem;
+}
 html body main #section-3 .row-25-75-primary ul li {
   font-family: 'Roboto Slab', serif;
   font-optical-sizing: auto;
@@ -311,4 +318,42 @@ html body main #section-3 .row-25-75-primary ul li {
   color: #000e41;
   font-size: 18px;
   line-height: 140%;
+}
+html body main #section-3 .row-50-50-primary {
+  grid-gap: 6rem;
+}
+html body main #section-3 .row-50-50-primary a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+html body main #section-3 .row-50-50-primary a div div {
+  gap: 1rem;
+  background-color: #fff;
+  border: 2px solid #0047FF;
+  opacity: 0;
+  margin: auto;
+  position: absolute;
+  transition: 0.3s;
+  margin-block-end: 0;
+  border-radius: 2px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 3px;
+}
+html body main #section-3 .row-50-50-primary a div div #frog-gif {
+  margin: auto;
+  margin-left: 20px;
+  width: 4rem;
+}
+html body main #section-3 .row-50-50-primary a div div:hover {
+  opacity: 0.9;
+}
+html body main #section-3 .row-50-50-primary a div img {
+  border-radius: 2px;
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
