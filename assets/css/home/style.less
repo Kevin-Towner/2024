@@ -53,15 +53,6 @@
   margin-bottom:1.5em;
 }
 
-.row-25-75-primary{
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-gap:2em;
-  // justify-content: space-between;
-  // align-items: baseline;
-  margin-bottom:1.5em;
-}
-
 .row-50-50-primary{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -107,12 +98,12 @@
   font-weight: 400;
   font-style: normal;
   color: @color-text-h;
-  border-bottom:1px solid @color-cta-hover;
+  border-bottom:2px solid #c4c4c4;
   line-height: 0.1em;
   margin:0 0 1.33em 0;
   span{
     background:@color-background;
-    padding:0 .5em 0 0px;
+    padding:0 1rem 0 0;
     font-size:26px;
     letter-spacing: -.5px;
   }
@@ -332,16 +323,11 @@ html {
             }
           }
         }
-        .row-25-75-primary{
-          grid-gap:3rem;
-          ul{
-            li{
-              .font-p;
-            }
-          }
+        #section-3-row-70-30-1{
+          margin-bottom:2rem;
         }
-        .row-50-50-primary{
-          grid-gap:6rem;
+        #section-3-row-70-30-3{
+          grid-gap:8rem;
           a {
             position: relative;
             display: inline-block;
@@ -350,7 +336,7 @@ html {
             div {
               div {
                 gap: 1rem;
-                background-color: #fff;
+                background-color: #FCFCFC;
                 border: 2px solid @color-cta-hover;
                 opacity: 0;
                 margin: auto;
@@ -362,18 +348,17 @@ html {
                 left: 0;
                 right: 0;
                 bottom: 3px;
-                // .project-tile-title {
-                //   .font-h4;
-                //   color: #fff;
-                //   margin:3rem 1rem .33rem 1rem;
-                // }
-                #frog-gif{
-                  margin:auto;
-                  margin-left:20px;
-                  width:4rem;
+                .project-tile-title {
+                  .font-h4;
+                  font-size:22px;
+                  text-align: center;
+                  margin-top:8em;
+                  #frog-gif{
+                    height:2em;
+                  }
                 }
                 &:hover {
-                  opacity: 0.90;
+                  opacity: 0.85;
                 }
               }
               img {

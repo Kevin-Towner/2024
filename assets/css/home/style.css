@@ -34,12 +34,6 @@
   grid-gap: 2em;
   margin-bottom: 1.5em;
 }
-.row-25-75-primary {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-gap: 2em;
-  margin-bottom: 1.5em;
-}
 .row-50-50-primary {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -70,13 +64,13 @@
   font-weight: 400;
   font-style: normal;
   color: #001459;
-  border-bottom: 1px solid #0047FF;
+  border-bottom: 2px solid #c4c4c4;
   line-height: 0.1em;
   margin: 0 0 1.33em 0;
 }
 .font-divider-h2 span {
   background: #FCFCFC;
-  padding: 0 0.5em 0 0px;
+  padding: 0 1rem 0 0;
   font-size: 26px;
   letter-spacing: -0.5px;
 }
@@ -200,13 +194,13 @@ html body main h2 {
   font-weight: 400;
   font-style: normal;
   color: #001459;
-  border-bottom: 1px solid #0047FF;
+  border-bottom: 2px solid #c4c4c4;
   line-height: 0.1em;
   margin: 0 0 1.33em 0;
 }
 html body main h2 span {
   background: #FCFCFC;
-  padding: 0 0.5em 0 0px;
+  padding: 0 1rem 0 0;
   font-size: 26px;
   letter-spacing: -0.5px;
 }
@@ -307,30 +301,21 @@ html body main #section-3 .row-70-30-primary ul li {
   font-size: 18px;
   line-height: 140%;
 }
-html body main #section-3 .row-25-75-primary {
-  grid-gap: 3rem;
+html body main #section-3 #section-3-row-70-30-1 {
+  margin-bottom: 2rem;
 }
-html body main #section-3 .row-25-75-primary ul li {
-  font-family: 'Roboto Slab', serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  color: #000e41;
-  font-size: 18px;
-  line-height: 140%;
+html body main #section-3 #section-3-row-70-30-3 {
+  grid-gap: 8rem;
 }
-html body main #section-3 .row-50-50-primary {
-  grid-gap: 6rem;
-}
-html body main #section-3 .row-50-50-primary a {
+html body main #section-3 #section-3-row-70-30-3 a {
   position: relative;
   display: inline-block;
   vertical-align: middle;
   margin: 0;
 }
-html body main #section-3 .row-50-50-primary a div div {
+html body main #section-3 #section-3-row-70-30-3 a div div {
   gap: 1rem;
-  background-color: #fff;
+  background-color: #FCFCFC;
   border: 2px solid #0047FF;
   opacity: 0;
   margin: auto;
@@ -343,15 +328,26 @@ html body main #section-3 .row-50-50-primary a div div {
   right: 0;
   bottom: 3px;
 }
-html body main #section-3 .row-50-50-primary a div div #frog-gif {
-  margin: auto;
-  margin-left: 20px;
-  width: 4rem;
+html body main #section-3 #section-3-row-70-30-3 a div div .project-tile-title {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15.5px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #003ACC;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 8em;
 }
-html body main #section-3 .row-50-50-primary a div div:hover {
-  opacity: 0.9;
+html body main #section-3 #section-3-row-70-30-3 a div div .project-tile-title #frog-gif {
+  height: 2em;
 }
-html body main #section-3 .row-50-50-primary a div img {
+html body main #section-3 #section-3-row-70-30-3 a div div:hover {
+  opacity: 0.85;
+}
+html body main #section-3 #section-3-row-70-30-3 a div img {
   border-radius: 2px;
   max-width: 100%;
   max-height: 100%;
