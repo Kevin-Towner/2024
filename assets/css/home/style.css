@@ -327,10 +327,11 @@ html body main #section-4 .row-50-50-primary ul li {
   line-height: 135%;
   padding: 0.2rem 0.6rem 0.2rem 0.2rem;
   margin: 0.33rem;
-  background: #e5e5e5;
+  background: #ebf1ff;
   border: 1px solid #b2b2b2;
   border-radius: 0.15rem;
   color: #404040;
+  color: #001459;
 }
 html body main #section-4 .row-50-50-primary ul li .tag-bullet {
   color: #808080;
