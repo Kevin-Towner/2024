@@ -78,6 +78,10 @@
     width:67%;
   }
 }
+
+.jump-spots{
+  scroll-margin-top: 100px;
+}
 /* - - - - - FONTS - - - - - - - -*/
 // .font-h1 {
 //   font-family: "Outfit", sans-serif;
@@ -269,7 +273,6 @@ html {
         .row-33_33_33-primary {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
-          grid-gap: 1em;
           margin-bottom:3rem;
           div {
             a {
@@ -324,7 +327,7 @@ html {
       }
       #section-3{
         .row-70-30-primary{
-          grid-gap:6rem;
+          grid-gap:4rem;
           ul{
             li{
               .font-p;
@@ -337,8 +340,20 @@ html {
           grid-gap:2rem;
           margin-top:2rem;
           ul{
+            display:inline-flex;
+            flex-wrap: wrap;
+            margin-bottom:1rem;
             li{
               .font-p;
+              padding:.2rem .6rem .2rem .2rem;
+              margin:.33rem;
+              background:#e5e5e5;
+              border:1px solid #b2b2b2;
+              border-radius:.15rem;
+              color:#404040;
+              .tag-bullet{
+                color:#808080;
+              }
             }
           }
           a {
@@ -363,11 +378,12 @@ html {
                 bottom: 3px;
                 .project-tile-title {
                   .font-h4;
-                  font-size:22px;
+                  font-size:16.5px;
                   text-align: center;
                   margin-top:8em;
                   #frog-gif{
                     height:2em;
+                    margin-right:1rem;
                   }
                 }
                 &:hover {

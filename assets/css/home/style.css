@@ -53,6 +53,9 @@
   border: 0.5px solid #001459;
   width: 67%;
 }
+.jump-spots {
+  scroll-margin-top: 100px;
+}
 /* - - - - - FONTS - - - - - - - -*/
 .font-h1 {
   font-family: "Outfit", sans-serif;
@@ -236,7 +239,6 @@ html body main #section-1 {
 html body main #section-2 .row-33_33_33-primary {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1em;
   margin-bottom: 3rem;
 }
 html body main #section-2 .row-33_33_33-primary div a {
@@ -295,7 +297,7 @@ html body main #section-2 .row-33_33_33-primary div a div img {
   border-radius: 2px;
 }
 html body main #section-3 .row-70-30-primary {
-  grid-gap: 6rem;
+  grid-gap: 4rem;
 }
 html body main #section-3 .row-70-30-primary ul li {
   font-family: 'Roboto Slab', serif;
@@ -310,6 +312,11 @@ html body main #section-4 .row-50-50-primary {
   grid-gap: 2rem;
   margin-top: 2rem;
 }
+html body main #section-4 .row-50-50-primary ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
 html body main #section-4 .row-50-50-primary ul li {
   font-family: 'Roboto Slab', serif;
   font-optical-sizing: auto;
@@ -318,6 +325,15 @@ html body main #section-4 .row-50-50-primary ul li {
   color: #000e41;
   font-size: 18px;
   line-height: 135%;
+  padding: 0.2rem 0.6rem 0.2rem 0.2rem;
+  margin: 0.33rem;
+  background: #e5e5e5;
+  border: 1px solid #b2b2b2;
+  border-radius: 0.15rem;
+  color: #404040;
+}
+html body main #section-4 .row-50-50-primary ul li .tag-bullet {
+  color: #808080;
 }
 html body main #section-4 .row-50-50-primary a {
   position: relative;
@@ -349,12 +365,13 @@ html body main #section-4 .row-50-50-primary a div div .project-tile-title {
   text-align: left;
   line-height: 140%;
   color: #003ACC;
-  font-size: 22px;
+  font-size: 16.5px;
   text-align: center;
   margin-top: 8em;
 }
 html body main #section-4 .row-50-50-primary a div div .project-tile-title #frog-gif {
   height: 2em;
+  margin-right: 1rem;
 }
 html body main #section-4 .row-50-50-primary a div div:hover {
   opacity: 0.85;
