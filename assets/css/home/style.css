@@ -236,6 +236,15 @@ html body main h4 {
 html body main #section-1 {
   margin-bottom: 4rem;
 }
+html body main #section-1 #section-1-row-1-header-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+html body main #section-1 #section-1-row-1-header-text img {
+  height: 2rem;
+  margin-right: 0.6rem;
+}
 html body main #section-2 .row-33_33_33-primary {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -310,7 +319,7 @@ html body main #section-3 .row-70-30-primary ul li {
 }
 html body main #section-4 .row-50-50-primary {
   grid-gap: 2rem;
-  margin-top: 2rem;
+  margin: 3rem 0;
 }
 html body main #section-4 .row-50-50-primary ul {
   display: inline-flex;
@@ -325,7 +334,7 @@ html body main #section-4 .row-50-50-primary ul li {
   color: #000e41;
   font-size: 18px;
   line-height: 135%;
-  padding: 0.2rem 0.6rem 0.2rem 0.2rem;
+  padding: 0.2rem 0.6rem;
   margin: 0.33rem;
   background: #ebf1ff;
   border: 1px solid #b2b2b2;
@@ -344,8 +353,8 @@ html body main #section-4 .row-50-50-primary a {
 }
 html body main #section-4 .row-50-50-primary a div div {
   gap: 1rem;
-  background-color: #FCFCFC;
-  border: 2px solid #c4c4c4;
+  background-color: #003ACC;
+  border: 2px solid #0047FF;
   opacity: 0;
   margin: auto;
   position: absolute;
@@ -366,6 +375,7 @@ html body main #section-4 .row-50-50-primary a div div .project-tile-title {
   text-align: left;
   line-height: 140%;
   color: #003ACC;
+  color: #fff;
   font-size: 16.5px;
   text-align: center;
   margin-top: 8em;
@@ -382,4 +392,13 @@ html body main #section-4 .row-50-50-primary a div img {
   max-width: 100%;
   max-height: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+html body main #section-5 .row-50-50-primary {
+  grid-gap: 2rem;
+  margin: 3rem 0;
+}
+html body main #section-5 .row-50-50-primary .business-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }

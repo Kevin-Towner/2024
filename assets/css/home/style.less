@@ -216,59 +216,17 @@ html {
       }
       #section-1 {
         margin-bottom:4rem;
+        #section-1-row-1-header-text{
+          display:flex;
+          flex-direction: row;
+          align-items:center;
+          img{
+            height:2rem;
+            margin-right:.6rem;
+          }
+        }
       }
 
-      // #section-2 {
-      //   flex-direction: column;
-      //   .button-row {
-      //     display: grid;
-      //     grid-template-columns: 1fr 1fr;
-      //     grid-gap: 1em;
-      //     margin: auto;
-      //     text-align: center;
-      //     form {
-      //       button {
-      //         padding: 0.5rem 1rem;
-      //         border-radius: 2px;
-      //         transition: 0.3s;
-      //
-      //         span {
-      //           font-family: "Outfit", sans-serif;
-      //           font-optical-sizing: auto;
-      //           font-weight: 400;
-      //           font-style: normal;
-      //           font-size:16px;
-      //         }
-      //
-      //         &:hover {
-      //           cursor: pointer;
-      //         }
-      //       }
-      //
-      //       #button-1 {
-      //         color: #fff;
-      //         border: 2px solid @color-cta-master;
-      //         background-color: @color-cta-master;
-      //
-      //         &:hover {
-      //           background-color: @color-cta-hover;
-      //           color: #fff;
-      //         }
-      //       }
-      //
-      //       #button-2 {
-      //         color: #fff;
-      //         border: 2px solid @color-cta-secondary;
-      //         background-color: @color-cta-secondary;
-      //
-      //         &:hover {
-      //           background-color: @color-cta-secondary-hover;
-      //           color: #fff;
-      //         }
-      //       }
-      //     }
-      //   }
-      // }
       #section-2 {
         .row-33_33_33-primary {
           display: grid;
@@ -338,14 +296,14 @@ html {
       #section-4{
         .row-50-50-primary{
           grid-gap:2rem;
-          margin-top:2rem;
+          margin:3rem 0;
           ul{
             display:inline-flex;
             flex-wrap: wrap;
             margin-bottom:1rem;
             li{
               .font-p;
-              padding:.2rem .6rem .2rem .2rem;
+              padding:.2rem .6rem;
               margin:.33rem;
               background:#ebf1ff;
               border:1px solid #b2b2b2;
@@ -365,8 +323,8 @@ html {
             div {
               div {
                 gap: 1rem;
-                background-color: #FCFCFC;
-                border: 2px solid #c4c4c4;
+                background-color: @color-cta-master;
+                border: 2px solid @color-cta-hover;
                 opacity: 0;
                 margin: auto;
                 position: absolute;
@@ -379,6 +337,7 @@ html {
                 bottom: 3px;
                 .project-tile-title {
                   .font-h4;
+                  color:#fff;
                   font-size:16.5px;
                   text-align: center;
                   margin-top:8em;
@@ -399,6 +358,17 @@ html {
               }
             }
           }
+        }
+      }
+      #section-5{
+        .row-50-50-primary{
+          grid-gap:2rem;
+          margin:3rem 0;
+          .business-card{
+            display:flex;
+            flex-direction:column;
+            gap:2em;
+          }   
         }
       }
     }
