@@ -136,12 +136,11 @@
 .font-h4{
   font-family: "Outfit", sans-serif;
   font-optical-sizing:auto;
-  font-size:18px;
-  font-weight: 600;
-  margin: 0 0 4px 0;
+  font-size:19px;
+  font-weight: 500;
   text-align: left;
   line-height:140%;
-  color:@color-cta-master;
+  color:@color-text-h;
 }
 
 .font-p {
@@ -232,6 +231,7 @@ html {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
           margin-bottom:3rem;
+          grid-gap:1rem;
           div {
             a {
               position: relative;
@@ -320,6 +320,7 @@ html {
             display: inline-block;
             vertical-align: middle;
             margin: 0;
+            width:80%;
             div {
               div {
                 gap: 1rem;
@@ -361,13 +362,35 @@ html {
         }
       }
       #section-5{
+        h3{
+          margin-top:3rem;
+        }
         .row-50-50-primary{
           grid-gap:2rem;
-          margin:3rem 0;
-          .business-card{
+          ul{
+            li{
+              a{
+                color:@color-cta-master;
+                &:hover{
+                  color:@color-cta-hover;
+                }
+              }
+            }
+          }
+          img{
+            width:80%;
+            border-radius:2px;
+          }
+          #section-5-row-50-50-primary-column-1{
             display:flex;
-            flex-direction:column;
-            gap:2em;
+            flex-direction:row;
+            align-items:center;
+            img{
+              height:4rem;
+              width:4rem;
+              border-radius:50%;
+              margin-right:1rem;
+            }
           }
         }
       }

@@ -64,7 +64,6 @@
     html body main #section-1{
       display:flex;
       flex-direction:row;
-      gap:1em;
       align-items:center;
       margin-bottom:2em;
     }
