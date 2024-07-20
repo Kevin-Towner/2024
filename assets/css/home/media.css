@@ -38,6 +38,9 @@
     html body main #section-4 .row-50-50-primary{
       grid-template-columns: 1fr;
     }
+    html body main #section-5 .row-50-50-primary{
+      grid-template-columns: 1fr;
+    }
   }
 
   @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */

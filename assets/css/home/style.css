@@ -348,7 +348,6 @@ html body main #section-4 .row-50-50-primary a {
   display: inline-block;
   vertical-align: middle;
   margin: 0;
-  width: 80%;
 }
 html body main #section-4 .row-50-50-primary a div div {
   gap: 1rem;
@@ -404,8 +403,8 @@ html body main #section-5 .row-50-50-primary ul li a:hover {
   color: #0047FF;
 }
 html body main #section-5 .row-50-50-primary img {
-  width: 80%;
   border-radius: 2px;
+  max-width: 100%;
 }
 html body main #section-5 .row-50-50-primary #section-5-row-50-50-primary-column-1 {
   display: flex;
@@ -413,8 +412,7 @@ html body main #section-5 .row-50-50-primary #section-5-row-50-50-primary-column
   align-items: center;
 }
 html body main #section-5 .row-50-50-primary #section-5-row-50-50-primary-column-1 img {
-  height: 4rem;
-  width: 4rem;
-  border-radius: 50%;
+  height: 3.2rem;
+  width: 3.2rem;
   margin-right: 1rem;
 }
