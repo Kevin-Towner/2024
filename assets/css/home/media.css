@@ -37,6 +37,10 @@
     }
     html body main #section-4 .row-50-50-primary{
       grid-template-columns: 1fr;
+      margin-bottom:1rem;
+    }
+    html body main #section-4 #section-4-row-50-50-primary-1 ul{
+
     }
     html body main #section-5 .row-50-50-primary{
       grid-template-columns: 1fr;

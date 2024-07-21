@@ -79,6 +79,25 @@
   }
 }
 
+.back-to-top{
+  p{
+    float:right;
+    a{
+      .font-caption;
+      font-weight:400;
+      color:@color-cta-master;
+      &:hover{
+        color:@color-cta-hover;
+      }
+    }
+    span{
+      img{
+        margin-left:.3rem;
+      }
+    }
+  }
+}
+
 .jump-spots{
   scroll-margin-top: 100px;
 }
@@ -362,11 +381,14 @@ html {
           }
         }
         #section-4-row-50-50-primary-2{
+          margin-bottom:3rem;
           div{
             ul{
               li{
                 p{
-                  line-height: 160%;
+                  a{
+                    line-height: 160%;
+                  }
                 }
               }
             }
