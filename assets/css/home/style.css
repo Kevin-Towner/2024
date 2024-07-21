@@ -55,6 +55,9 @@
 }
 .back-to-top p {
   float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
 }
 .back-to-top p a {
   font-family: 'Roboto Slab', serif;
