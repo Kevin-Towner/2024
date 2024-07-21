@@ -17,6 +17,7 @@
   @media screen and (max-width:880px){
     html body main #section-2 .row-33_33_33-primary{
       grid-template-columns: 1fr;
+      grid-gap:1rem;
     }
     html body main #section-2 .row-33_33_33-primary div a div div h2{
     }
