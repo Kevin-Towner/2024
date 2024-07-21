@@ -123,6 +123,9 @@
   font-weight: 400;
   color: #003ACC;
 }
+.font-anchor:hover {
+  color: #0047FF;
+}
 .font-button {
   font-family: 'Roboto Slab', serif;
   font-optical-sizing: auto;
@@ -315,16 +318,15 @@ html body main #section-3 .row-70-30-primary ul li {
   font-size: 18px;
   line-height: 135%;
 }
-html body main #section-4 .row-50-50-primary {
+html body main #section-4 #section-4-row-50-50-primary-1 {
   grid-gap: 2rem;
-  margin: 3rem 0;
 }
-html body main #section-4 .row-50-50-primary ul {
+html body main #section-4 #section-4-row-50-50-primary-1 ul {
   display: inline-flex;
   flex-wrap: wrap;
   margin-bottom: 1rem;
 }
-html body main #section-4 .row-50-50-primary ul li {
+html body main #section-4 #section-4-row-50-50-primary-1 ul li {
   font-family: 'Roboto Slab', serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -340,16 +342,16 @@ html body main #section-4 .row-50-50-primary ul li {
   color: #404040;
   color: #001459;
 }
-html body main #section-4 .row-50-50-primary ul li .tag-bullet {
+html body main #section-4 #section-4-row-50-50-primary-1 ul li .tag-bullet {
   color: #808080;
 }
-html body main #section-4 .row-50-50-primary a {
+html body main #section-4 #section-4-row-50-50-primary-1 a {
   position: relative;
   display: inline-block;
   vertical-align: middle;
   margin: 0;
 }
-html body main #section-4 .row-50-50-primary a div div {
+html body main #section-4 #section-4-row-50-50-primary-1 a div div {
   gap: 1rem;
   background-color: #003ACC;
   border: 2px solid #0047FF;
@@ -364,7 +366,7 @@ html body main #section-4 .row-50-50-primary a div div {
   right: 0;
   bottom: 3px;
 }
-html body main #section-4 .row-50-50-primary a div div .project-tile-title {
+html body main #section-4 #section-4-row-50-50-primary-1 a div div .project-tile-title {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-size: 19px;
@@ -377,18 +379,21 @@ html body main #section-4 .row-50-50-primary a div div .project-tile-title {
   text-align: center;
   margin-top: 8em;
 }
-html body main #section-4 .row-50-50-primary a div div .project-tile-title #frog-gif {
+html body main #section-4 #section-4-row-50-50-primary-1 a div div .project-tile-title #frog-gif {
   height: 2em;
   margin-right: 1rem;
 }
-html body main #section-4 .row-50-50-primary a div div:hover {
+html body main #section-4 #section-4-row-50-50-primary-1 a div div:hover {
   opacity: 0.85;
 }
-html body main #section-4 .row-50-50-primary a div img {
+html body main #section-4 #section-4-row-50-50-primary-1 a div img {
   border-radius: 2px;
   max-width: 100%;
   max-height: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+html body main #section-4 #section-4-row-50-50-primary-2 div ul li p {
+  line-height: 160%;
 }
 html body main #section-5 h3 {
   margin-top: 3rem;
@@ -396,11 +401,8 @@ html body main #section-5 h3 {
 html body main #section-5 .row-50-50-primary {
   grid-gap: 2rem;
 }
-html body main #section-5 .row-50-50-primary ul li a {
-  color: #003ACC;
-}
-html body main #section-5 .row-50-50-primary ul li a:hover {
-  color: #0047FF;
+html body main #section-5 .row-50-50-primary ul li p {
+  line-height: 160%;
 }
 html body main #section-5 .row-50-50-primary img {
   border-radius: 2px;

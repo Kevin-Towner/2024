@@ -158,6 +158,9 @@
   text-decoration: none;
   font-weight: 400;
   color: @color-cta-master;
+  &:hover{
+    color:@color-cta-hover;
+  }
 }
 
 .font-button {
@@ -294,9 +297,8 @@ html {
         }
       }
       #section-4{
-        .row-50-50-primary{
+        #section-4-row-50-50-primary-1{
           grid-gap:2rem;
-          margin:3rem 0;
           ul{
             display:inline-flex;
             flex-wrap: wrap;
@@ -359,6 +361,17 @@ html {
             }
           }
         }
+        #section-4-row-50-50-primary-2{
+          div{
+            ul{
+              li{
+                p{
+                  line-height: 160%;
+                }
+              }
+            }
+          }
+        }
       }
       #section-5{
         h3{
@@ -368,11 +381,8 @@ html {
           grid-gap:2rem;
           ul{
             li{
-              a{
-                color:@color-cta-master;
-                &:hover{
-                  color:@color-cta-hover;
-                }
+              p{
+                line-height: 160%;
               }
             }
           }
