@@ -178,7 +178,7 @@
 .font-anchor {
   .font-p;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 300;
   color: @color-cta-master;
   &:hover{
     color:@color-cta-hover;
@@ -410,10 +410,18 @@ html {
       #section-5{
         .row-50-50-primary{
           grid-gap:2rem;
+          p{
+            margin-bottom:.6rem;
+          }
           ul{
             li{
               p{
-                line-height: 160%;
+                line-height: 140%;
+                margin-bottom:0;
+                span{
+                  .font-caption;
+                  font-weight: 400;
+                }
               }
             }
           }
@@ -426,12 +434,6 @@ html {
             flex-direction:row;
             align-items:center;
             align-items: center;
-            img{
-              height:4.3rem;
-              width:4.3rem;
-              margin-right:.33rem;
-              border-radius:50%;
-            }
           }
         }
       }

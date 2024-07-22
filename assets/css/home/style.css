@@ -138,13 +138,12 @@
 .font-anchor {
   font-family: 'Roboto Slab', serif;
   font-optical-sizing: auto;
-  font-weight: 300;
   font-style: normal;
   color: #000e41;
   font-size: 18px;
   line-height: 135%;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 300;
   color: #003ACC;
 }
 .font-anchor:hover {
@@ -433,8 +432,23 @@ html body main #section-4 #section-4-row-50-50-primary-2 div ul li p a {
 html body main #section-5 .row-50-50-primary {
   grid-gap: 2rem;
 }
+html body main #section-5 .row-50-50-primary p {
+  margin-bottom: 0.6rem;
+}
 html body main #section-5 .row-50-50-primary ul li p {
-  line-height: 160%;
+  line-height: 140%;
+  margin-bottom: 0;
+}
+html body main #section-5 .row-50-50-primary ul li p span {
+  font-family: 'Roboto Slab', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #000e41;
+  font-size: 18px;
+  line-height: 135%;
+  font-size: 15.5px;
+  font-weight: 300;
+  font-weight: 400;
 }
 html body main #section-5 .row-50-50-primary img {
   border-radius: 2px;
@@ -444,10 +458,4 @@ html body main #section-5 .row-50-50-primary #section-5-row-50-50-primary-column
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-html body main #section-5 .row-50-50-primary #section-5-row-50-50-primary-column-1 img {
-  height: 4.3rem;
-  width: 4.3rem;
-  margin-right: 0.33rem;
-  border-radius: 50%;
 }
