@@ -68,8 +68,7 @@
   line-height: 135%;
   font-size: 15.5px;
   font-weight: 300;
-  font-weight: 400;
-  color: #383838;
+  color: #003ACC;
 }
 .back-to-top p a:hover {
   color: #0047FF;
@@ -447,8 +446,8 @@ html body main #section-5 .row-50-50-primary #section-5-row-50-50-primary-column
   align-items: center;
 }
 html body main #section-5 .row-50-50-primary #section-5-row-50-50-primary-column-1 img {
-  height: 5.6rem;
-  width: 5.6rem;
-  margin-right: 0.66rem;
+  height: 4.3rem;
+  width: 4.3rem;
+  margin-right: 0.33rem;
   border-radius: 50%;
 }
