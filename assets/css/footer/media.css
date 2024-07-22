@@ -18,9 +18,6 @@
   @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
     footer{
     }
-    footer div{
-      width:80%;
-    }
 
     footer .copyright{
       font-size:10.5pt;
@@ -37,8 +34,11 @@
       height:20px;
     }
 
-    footer div ul li:nth-child(1){
-      margin-right:24px;
+    footer > .row-50-50-primary{
+      width:80%;
+    }
+    footer > .row-50-50-primary > div > ul{
+      gap:.5rem;
     }
   }
 
