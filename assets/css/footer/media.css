@@ -40,6 +40,9 @@
     footer > .row-50-50-primary > div > ul{
       gap:.5rem;
     }
+    footer > .row-50-50-primary > div > ul > li > a >img{
+      max-width:1.3rem;
+    }
   }
 
   @media screen and (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
