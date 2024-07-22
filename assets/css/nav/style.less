@@ -1,11 +1,13 @@
-@color-text-h1: #565f6d;
-@color-text-p: #252825;
+@color-text-h: #001459;
+@color-text-h2: #fcfcfc;
+@color-text-p: #000e41;
+@color-text-secondary: #fcfcfc;
 @color-background: #FCFCFC;
-@color-cta-master: #5282FD;
-@color-cta-hover: #1B58F5;
+@color-cta-master: #003ACC;
+@color-cta-hover: #0047FF;
 @color-cta-secondary: #6C7583;
 @color-cta-secondary-hover: #565f6d;
-
+@color-light-grey: #a9a9a9;
 
 
 nav{
@@ -62,13 +64,11 @@ nav{
           }
           a{
             text-decoration: none;
-            color:#000e41;
-            font-family: 'Roboto Slab', serif !important;
-            font-optical-sizing: auto !important;
-            font-weight: 400 !important;
-            font-style: normal !important;
+            color:@color-cta-master;
+            font-family: 'Roboto Slab', serif;
             font-size:15.5px;
-            letter-spacing: .33px;
+            font-weight:300;
+            letter-spacing: .3px;
             &:hover{
               color:@color-cta-hover;
               transition: 0.3s;

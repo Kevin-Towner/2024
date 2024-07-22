@@ -44,15 +44,13 @@ nav .nav-content #navigation-right #menu li:nth-child(2) a {
 }
 nav .nav-content #navigation-right #menu li a {
   text-decoration: none;
-  color: #000e41;
-  font-family: 'Roboto Slab', serif !important;
-  font-optical-sizing: auto !important;
-  font-weight: 400 !important;
-  font-style: normal !important;
+  color: #003ACC;
+  font-family: 'Roboto Slab', serif;
   font-size: 15.5px;
-  letter-spacing: 0.33px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
 }
 nav .nav-content #navigation-right #menu li a:hover {
-  color: #1B58F5;
+  color: #0047FF;
   transition: 0.3s;
 }

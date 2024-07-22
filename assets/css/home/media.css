@@ -87,6 +87,19 @@
       width:100%;
     }
 
+    html body main #section-1 #section-1-row-1{
+      align-items: start;
+    }
+
+    html body main #section-1 #section-1-row-1 img{
+      max-height:5.3rem;
+    }
+
+    html body main section div h1{
+      font-size:32px;
+      margin-bottom:.1rem;
+    }
+
     html body main section div p{
     }
 
