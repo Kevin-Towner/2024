@@ -44,7 +44,8 @@
 
     }
     html body main #section-5 .row-50-50-primary{
-      grid-template-columns: 1fr;
+      display:flex;
+      flex-direction: column-reverse;
     }
   }
 
@@ -112,4 +113,7 @@
     .divider-space .divider-line{
       width:100%;
       display:block;
+    }
+    .jump-spots{
+      scroll-margin-top:150px;
     }
