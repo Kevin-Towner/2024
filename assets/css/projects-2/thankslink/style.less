@@ -29,14 +29,16 @@
 @box-shadow-misc: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 
 
-@color-text-h: #565f6d;
-// @color-text-p: #252825;
-@color-text-p: #616B7B;
+@color-text-h: #001459;
+@color-text-h2: #fcfcfc;
+@color-text-p: #000e41;
+@color-text-secondary: #fcfcfc;
 @color-background: #FCFCFC;
-@color-cta-master: #2E69FF;
+@color-cta-master: #003ACC;
+@color-cta-hover: #0047FF;
 @color-cta-secondary: #6C7583;
 @color-cta-secondary-hover: #565f6d;
-@color-light-grey:#a9a9a9;
+@color-light-grey: #a9a9a9;
 
 
 @keyframes fadeInAnimation {
@@ -51,10 +53,10 @@
 #background-section-1{
   background: rgb(0,4,62);
   background: linear-gradient(90deg, rgba(0,4,62,1) 0%, rgba(3,21,89,1) 32%, rgba(15,47,242,1) 100%);
-  background:@color-cta-hover;
+  background:@color-cta-master;
 }
 #background-section-3, #background-section-7, #background-section-11{
-  background:@color-cta-master;
+  background:@color-cta-hover;
   padding:2em 0 2em 0;
 }
 
@@ -75,7 +77,6 @@
   background:@color-background;
   z-index:0;
   min-height:100%;
-  margin-bottom:10em;
 }
 
 .row{
@@ -183,16 +184,24 @@
 }
 
 .back-to-top{
-  text-align: right;
   p{
-    margin:0;
+    float:right;
+    display:flex;
+    flex-direction: row;
+    align-items:end;
+    margin-bottom:0;
     a{
-      .font-hyperlink_in-text;
-      font-size:16.5px;
-      font-weight:400;
-      &:after{
-        content:'\21D1' ;
+      .font-caption;
+      color:@color-cta-master;
+      margin-bottom:0;
+      &:hover{
         color:@color-cta-hover;
+      }
+    }
+    span{
+      img{
+        margin-left:.3rem;
+        height:1.6rem;
       }
     }
   }
@@ -207,6 +216,8 @@
   font-style: normal;
   color: @color-text-h;
   font-size:44px;
+  margin-bottom: .33em;
+  letter-spacing: -.5px;
 }
 
 .font-heading_text-h2{
@@ -215,21 +226,22 @@
   font-weight: 400;
   font-style: normal;
   color: @color-text-h;
-  font-size:28px;
-  border-bottom:1px solid @color-text-p;
+  border-bottom:1px solid @color-text-h;
   line-height: 0.1em;
-  margin:0 0 1em 0;
+  margin:0 0 1.33em 0;
   span{
-    background:@color-secondary;
-    padding:0 .5em 0 0px;
+    background:@color-background;
+    padding:0 1rem 0 0;
+    font-size:26px;
+    letter-spacing: -.5px;
   }
 }
 .font-heading_text-h3{
   font-family: "Outfit", sans-serif;
-  margin: 0 0 12px 0;
+  margin: 0 0 .33rem 0;
   line-height: 150%;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   color: @color-text-h;
   font-size:22px;
@@ -238,9 +250,8 @@
 .font-heading_text-h4{
   font-family: "Outfit", sans-serif;
   font-optical-sizing:auto;
-  font-size:18px;
-  font-weight: 400;
-  margin: 0 0 4px 0;
+  font-size:19px;
+  font-weight: 500;
   text-align: left;
   line-height:140%;
   color:@color-text-h;
@@ -258,42 +269,30 @@
   color:@color-text_2;
 }
 
-.font-bodyText{
-  font-family: "Open Sans", sans-serif;
+.font-p{
+  font-family: 'Roboto Slab', serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
   color:@color-text-p;
-  margin: 0 0 1em 0;
   font-size:18px;
   line-height:135%;
+  margin-bottom:1.33rem;
 }
 
-.font-hyperlink_text{
-  .font-bodyText;
-  text-decoration:none;
-  font-weight:300;
+.font-anchor{
+  .font-p;
+  text-decoration: none;
+  font-weight: 300;
+  color: @color-cta-master;
   &:hover{
-    text-decoration:underline;
-    color:@color-hyperlink;
+    color:@color-cta-hover;
   }
-  font-size:12.5pt;
 }
 
-.font-hyperlink_in-text{
-  .font-bodyText;
-  color:@color-hyperlink;
-  text-decoration:none;
-  font-weight:300;
-  &:hover{
-    text-decoration:underline;
-    color:@color-hyperlink;
-  }
-  font-size:18px;
-}
 .font-caption{
-  color:@color-text-p;
-  font-size:16px;
+  .font-p;
+  font-size:15.5px;
   font-weight:300;
 }
 
@@ -350,11 +349,11 @@ h5{
 }
 
 p{
-  .font-bodyText;
+  .font-p;
 }
 
 ul{
-  .font-bodyText;
+  .font-p;
 }
 
 .section{
@@ -432,7 +431,7 @@ ul{
           border-right:1px solid #fff;
         }
         h3{
-          .font-bodyText;
+          .font-p;
           font-weight:400;
           margin-bottom:8px;
           color:#fff;
@@ -475,13 +474,11 @@ ul{
           li{
             display:inline-flex;
             &:before{
-              content:'\25B9';
-              color:@color-cta-hover;
+              content:'・';
             }
             p{
-              .font-caption;
               margin-left:4px;
-              margin-bottom:8px;
+              margin-bottom:.33rem;
             }
           }
         }
@@ -547,13 +544,11 @@ ul{
           li{
             display:inline-flex;
             &:before{
-              content:'\25B9';
-              color:@color-cta-hover;
+              content:'・';
             }
             p{
-              .font-caption;
               margin-left:4px;
-              margin-bottom:8px;
+              margin-bottom:.33rem;
             }
           }
         }
